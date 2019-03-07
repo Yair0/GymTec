@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "RDH-T8-3L0"; */
+"RDH-T8-3L0.normalTitle" = "Sign In";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "SHb-cZ-Qki"; */
+"SHb-cZ-Qki.normalTitle" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "About us"; ObjectID = "Wni-Hb-LJF"; */
+"Wni-Hb-LJF.normalTitle" = "About us";
+
+/* Class = "UIButton"; normalTitle = "Help"; ObjectID = "n7r-k3-2UO"; */
+"n7r-k3-2UO.normalTitle" = "Help";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "wzQ-pa-kSJ"; */
+"wzQ-pa-kSJ.text" = "Welcome";
+
+/* Class = "UILabel"; text = "Ready to lift?"; ObjectID = "zb1-Ec-xC0"; */
+"zb1-Ec-xC0.text" = "Ready to lift?";
+
+/* Class = "UILabel"; text = "GYMTEC"; ObjectID = "zbB-ie-a87"; */
+"zbB-ie-a87.text" = "GYMTEC";
