@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395B9B3F223D5B52000CE2A2 /* AboutUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B9B3E223D5B52000CE2A2 /* AboutUSViewController.swift */; };
+		395B9B43223D64DE000CE2A2 /* QrScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 395B9B42223D64DE000CE2A2 /* QrScreen.png */; };
+		395B9B45223D6603000CE2A2 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */; };
+		395B9B47223D69B5000CE2A2 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */; };
+		395B9B49223D7251000CE2A2 /* QR LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 395B9B48223D7251000CE2A2 /* QR LOGO.png */; };
+		395B9B4B223D7839000CE2A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B9B4A223D7839000CE2A2 /* ProfileViewController.swift */; };
+		395B9B4D223D7B0B000CE2A2 /* MapaTec.png in Resources */ = {isa = PBXBuildFile; fileRef = 395B9B4C223D7B0A000CE2A2 /* MapaTec.png */; };
+		395B9B4F223D8924000CE2A2 /* GymTec.png in Resources */ = {isa = PBXBuildFile; fileRef = 395B9B4E223D8924000CE2A2 /* GymTec.png */; };
+		395B9B51223D8E44000CE2A2 /* 360Gym.png in Resources */ = {isa = PBXBuildFile; fileRef = 395B9B50223D8E43000CE2A2 /* 360Gym.png */; };
 		89477BE02231A05000F313CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BDF2231A05000F313CE /* AppDelegate.swift */; };
 		89477BE22231A05000F313CE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BE12231A05000F313CE /* FirstViewController.swift */; };
 		89477BE42231A05000F313CE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BE32231A05000F313CE /* SecondViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		395B9B3E223D5B52000CE2A2 /* AboutUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUSViewController.swift; sourceTree = "<group>"; };
+		395B9B42223D64DE000CE2A2 /* QrScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QrScreen.png; sourceTree = "<group>"; };
+		395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		395B9B48223D7251000CE2A2 /* QR LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR LOGO.png"; sourceTree = "<group>"; };
+		395B9B4A223D7839000CE2A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		395B9B4C223D7B0A000CE2A2 /* MapaTec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapaTec.png; sourceTree = "<group>"; };
+		395B9B4E223D8924000CE2A2 /* GymTec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GymTec.png; sourceTree = "<group>"; };
+		395B9B50223D8E43000CE2A2 /* 360Gym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 360Gym.png; sourceTree = "<group>"; };
 		89477BDC2231A05000F313CE /* GymTec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymTec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89477BDF2231A05000F313CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89477BE12231A05000F313CE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +58,7 @@
 		89477BD32231A05000F313CE = {
 			isa = PBXGroup;
 			children = (
+				395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */,
 				89477BDE2231A05000F313CE /* GymTec */,
 				89477BDD2231A05000F313CE /* Products */,
 			);
@@ -56,10 +75,18 @@
 		89477BDE2231A05000F313CE /* GymTec */ = {
 			isa = PBXGroup;
 			children = (
+				395B9B48223D7251000CE2A2 /* QR LOGO.png */,
+				395B9B42223D64DE000CE2A2 /* QrScreen.png */,
+				395B9B4C223D7B0A000CE2A2 /* MapaTec.png */,
+				395B9B50223D8E43000CE2A2 /* 360Gym.png */,
+				395B9B4E223D8924000CE2A2 /* GymTec.png */,
 				89477BDF2231A05000F313CE /* AppDelegate.swift */,
 				89477BE12231A05000F313CE /* FirstViewController.swift */,
 				89477BE32231A05000F313CE /* SecondViewController.swift */,
 				89477BE52231A05000F313CE /* Main.storyboard */,
+				395B9B4A223D7839000CE2A2 /* ProfileViewController.swift */,
+				395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */,
+				395B9B3E223D5B52000CE2A2 /* AboutUSViewController.swift */,
 				89477BE82231A05300F313CE /* Assets.xcassets */,
 				89477BEA2231A05300F313CE /* LaunchScreen.storyboard */,
 				89477BED2231A05300F313CE /* Info.plist */,
@@ -125,9 +152,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395B9B4F223D8924000CE2A2 /* GymTec.png in Resources */,
+				395B9B49223D7251000CE2A2 /* QR LOGO.png in Resources */,
 				89477BEC2231A05300F313CE /* LaunchScreen.storyboard in Resources */,
+				395B9B51223D8E44000CE2A2 /* 360Gym.png in Resources */,
 				89477BE92231A05300F313CE /* Assets.xcassets in Resources */,
+				395B9B43223D64DE000CE2A2 /* QrScreen.png in Resources */,
 				89477BE72231A05000F313CE /* Main.storyboard in Resources */,
+				395B9B4D223D7B0B000CE2A2 /* MapaTec.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395B9B3F223D5B52000CE2A2 /* AboutUSViewController.swift in Sources */,
 				89477BE42231A05000F313CE /* SecondViewController.swift in Sources */,
 				89477BE02231A05000F313CE /* AppDelegate.swift in Sources */,
+				395B9B47223D69B5000CE2A2 /* UpdateProfileViewController.swift in Sources */,
+				395B9B4B223D7839000CE2A2 /* ProfileViewController.swift in Sources */,
+				395B9B45223D6603000CE2A2 /* EditProfileViewController.swift in Sources */,
 				89477BE22231A05000F313CE /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
