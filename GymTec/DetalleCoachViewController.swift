@@ -1,23 +1,28 @@
 //
-//  ProfileViewController.swift
+//  DetalleCoachViewController.swift
 //  GymTec
 //
-//  Created by cdt307 on 3/16/19.
+//  Created by cdt307 on 3/19/19.
 //  Copyright © 2019 Yair Pimentel. All rights reserved.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
-
+class DetalleCoachViewController: UIViewController {
+    var nombreRecibido = "";
+    var specRecibido = "";
+    var numRecibido = "";
+    var mailRecibido = "";
+    @IBOutlet weak var nombre: UILabel!
+    @IBOutlet weak var spec: UILabel!
+    @IBOutlet weak var num: UILabel!
+    @IBOutlet weak var mail: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-    @IBAction func LogOut(_ sender: UIButton) {
-        self.presentingViewController?.dismiss(animated: true, completion: nil)
+        nombre.text = nombreRecibido
+        spec.text = specRecibido
+        num.text = numRecibido
+        mail.text = mailRecibido
     }
     
     
