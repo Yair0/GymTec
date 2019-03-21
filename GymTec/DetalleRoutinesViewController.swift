@@ -8,11 +8,15 @@
 
 import UIKit
 
-class DetalleRoutineViewController: UIViewController {
-
+class DetalleRoutinesViewController: UIViewController {
+    var nom = "";
+    var desc = "";
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var descripcion: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title.text = nom
+        descripcion.text = descripcion
         // Do any additional setup after loading the view.
     }
     

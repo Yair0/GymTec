@@ -36,8 +36,8 @@ class RoutineListViewController: UITableViewController, UISearchResultsUpdating 
             routinesFiltrados = routinesObj!
         }else{
             routinesFiltrados = routinesObj!.filter{
-                let objetoCoach = $0 as! [String:Any]
-                let s:String = objetoCoach["Nombre"] as! String
+                let objetoRoutines = $0 as! [String:Any]
+                let s:String = objetoRoutines["Nombre"] as! String
                 return(s.lowercased().contains((searchController.searchBar.text!.lowercased())))
             }
         }
@@ -92,8 +92,8 @@ class RoutineListViewController: UITableViewController, UISearchResultsUpdating 
         let cell = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath)
         
         // Configure the cell...
-        let objetoCoach = routinesFiltrados[indexPath.row] as! [String:Any]
-        let nombre:String = objetoCoach["Nombre"] as! String
+        let objetoRoutines = routinesFiltrados[indexPath.row] as! [String:Any]
+        let nombre:String = objetoRoutines["Nombre"] as! String
         cell.textLabel?.text = nombre
         
         return cell
@@ -111,16 +111,14 @@ class RoutineListViewController: UITableViewController, UISearchResultsUpdating 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        var siguiente = segue.destination as! DetalleCoachViewController
+        var siguiente = segue.destination as! DetalleRoutinesViewController
         var indice = self.tableView.indexPathForSelectedRow?.row
         
-        let objetoCoach = routinesFiltrados[indice!] as! [String:Any]
-        
-        
-        /*siguiente.nombreRecibido = nombre
-        siguiente.specRecibido = spec
-        siguiente.numRecibido = num
-        siguiente.mailRecibido = mail*/
+        let objetoRoutines = routinesFiltrados[indice!] as! [String:Any]
+        let nombre:String = objetoRoutines["Nombre"] as! String
+        let descripcion:String = objetoRoutines["Descripcion"] as! String
+        siguiente.nom = nombre
+        siguiente.desc = descripcion
     }
     
     

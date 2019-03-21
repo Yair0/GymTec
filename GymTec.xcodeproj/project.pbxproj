@@ -28,7 +28,7 @@
 		39D29B0E22433698007F0C4F /* dumbbell-120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39D29B0D22433698007F0C4F /* dumbbell-120.jpg */; };
 		39D29B10224336B6007F0C4F /* dumbbell-180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */; };
 		39D29B122243382E007F0C4F /* RoutineListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D29B112243382E007F0C4F /* RoutineListViewController.swift */; };
-		39D29B1622433BCA007F0C4F /* DetalleRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D29B1522433BCA007F0C4F /* DetalleRoutineViewController.swift */; };
+		39D29B1622433BCA007F0C4F /* DetalleRoutinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */; };
 		89477BE02231A05000F313CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BDF2231A05000F313CE /* AppDelegate.swift */; };
 		89477BE22231A05000F313CE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BE12231A05000F313CE /* FirstViewController.swift */; };
 		89477BE42231A05000F313CE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BE32231A05000F313CE /* SecondViewController.swift */; };
@@ -59,7 +59,7 @@
 		39D29B0D22433698007F0C4F /* dumbbell-120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dumbbell-120.jpg"; sourceTree = "<group>"; };
 		39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dumbbell-180.jpg"; sourceTree = "<group>"; };
 		39D29B112243382E007F0C4F /* RoutineListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineListViewController.swift; sourceTree = "<group>"; };
-		39D29B1522433BCA007F0C4F /* DetalleRoutineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRoutineViewController.swift; sourceTree = "<group>"; };
+		39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRoutinesViewController.swift; sourceTree = "<group>"; };
 		89477BDC2231A05000F313CE /* GymTec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymTec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89477BDF2231A05000F313CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89477BE12231A05000F313CE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 				395CEFBE2241C2FC00348BB6 /* DetalleCoachViewController.swift */,
 				395CEFC62241D32A00348BB6 /* CoachesListaViewController.swift */,
 				39D29B112243382E007F0C4F /* RoutineListViewController.swift */,
-				39D29B1522433BCA007F0C4F /* DetalleRoutineViewController.swift */,
+				39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */,
 			);
 			path = GymTec;
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 				39D29B122243382E007F0C4F /* RoutineListViewController.swift in Sources */,
 				89477BE02231A05000F313CE /* AppDelegate.swift in Sources */,
 				3922AAE02241BA5200BF0543 /* CoachesListViewController.swift in Sources */,
-				39D29B1622433BCA007F0C4F /* DetalleRoutineViewController.swift in Sources */,
+				39D29B1622433BCA007F0C4F /* DetalleRoutinesViewController.swift in Sources */,
 				395B9B47223D69B5000CE2A2 /* UpdateProfileViewController.swift in Sources */,
 				395B9B4B223D7839000CE2A2 /* ProfileViewController.swift in Sources */,
 				395CEFC72241D32A00348BB6 /* CoachesListaViewController.swift in Sources */,
