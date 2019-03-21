@@ -9,7 +9,7 @@
 import UIKit
 
 class CoachesListaViewController: UITableViewController, UISearchResultsUpdating {
-    let coachesStringURL =  "http://martinmolina.com.mx/201911/data/Coaches.json"
+    let coachesStringURL =  "http://martinmolina.com.mx/201911/data/iGym/Coaches.json"
     var coachesObj:[Any]?
     
     func JSONParseArray(_ string: String) -> [AnyObject]{

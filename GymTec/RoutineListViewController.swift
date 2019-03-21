@@ -1,16 +1,16 @@
 //
-//  CoachesListViewController.swift
+//  RoutineListViewController.swift
 //  GymTec
 //
-//  Created by cdt307 on 3/19/19.
+//  Created by cdt307 on 3/20/19.
 //  Copyright © 2019 Yair Pimentel. All rights reserved.
 //
 
 import UIKit
 
-class CoachesListViewController: UITableViewController, UISearchResultsUpdating {
-    let coachesStringURL =  "http://martinmolina.com.mx/201911/data/iGym/Coaches.json"
-    var coachesObj:[Any]?
+class RoutineListViewController: UITableViewController, UISearchResultsUpdating {
+    let routinesStringURL =  "http://martinmolina.com.mx/201911/data/iGym/Routines.json"
+    var routinesObj:[Any]?
     
     func JSONParseArray(_ string: String) -> [AnyObject]{
         if let data = string.data(using: String.Encoding.utf8){
@@ -29,20 +29,20 @@ class CoachesListViewController: UITableViewController, UISearchResultsUpdating 
     }
     
     let searchController = UISearchController(searchResultsController: nil)
-    var coachesFiltrados = [Any]()
+    var routinesFiltrados = [Any]()
     
     func updateSearchResults(for searchController: UISearchController) {
         if searchController.searchBar.text! == "" {
-            coachesFiltrados = coachesObj!
+            routinesFiltrados = routinesObj!
         }else{
-            coachesFiltrados = coachesObj!.filter{
+            routinesFiltrados = routinesObj!.filter{
                 let objetoCoach = $0 as! [String:Any]
-                let s:String = objetoCoach["coach"] as! String
+                let s:String = objetoCoach["Nombre"] as! String
                 return(s.lowercased().contains((searchController.searchBar.text!.lowercased())))
             }
         }
         //  Se recarga la vista con los nuevos datos
-         self.tableView.reloadData()
+        self.tableView.reloadData()
     }
     
     
@@ -52,11 +52,11 @@ class CoachesListViewController: UITableViewController, UISearchResultsUpdating 
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        let coachesURL = URL(string: coachesStringURL)
-        let data = try? Data(contentsOf: coachesURL!)
-        coachesObj = try! JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? [AnyObject]
+        let routinesURL = URL(string: routinesStringURL)
+        let data = try? Data(contentsOf: routinesURL!)
+        routinesObj = try! JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? [AnyObject]
         
-        coachesFiltrados = coachesObj!
+        routinesFiltrados = routinesObj!
         
         // Se usa la vista actual para presentar los datos resultantes de la búsqueda
         // Linea de asignación del delegado
@@ -85,14 +85,14 @@ class CoachesListViewController: UITableViewController, UISearchResultsUpdating 
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return coachesFiltrados.count
+        return routinesFiltrados.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath)
         
         // Configure the cell...
-        let objetoCoach = coachesFiltrados[indexPath.row] as! [String:Any]
+        let objetoCoach = routinesFiltrados[indexPath.row] as! [String:Any]
         let nombre:String = objetoCoach["Nombre"] as! String
         cell.textLabel?.text = nombre
         
@@ -114,17 +114,13 @@ class CoachesListViewController: UITableViewController, UISearchResultsUpdating 
         var siguiente = segue.destination as! DetalleCoachViewController
         var indice = self.tableView.indexPathForSelectedRow?.row
         
-        let objetoCoach = coachesFiltrados[indice!] as! [String:Any]
-        let nombre:String = objetoCoach["Nombre"] as! String
-        let spec:String = objetoCoach["Especialidad"] as! String
-        let num:String = objetoCoach["Numero"] as! String
-        let mail:String = objetoCoach["Correo"] as! String
+        let objetoCoach = routinesFiltrados[indice!] as! [String:Any]
         
         
-        siguiente.nombreRecibido = nombre
+        /*siguiente.nombreRecibido = nombre
         siguiente.specRecibido = spec
         siguiente.numRecibido = num
-        siguiente.mailRecibido = mail
+        siguiente.mailRecibido = mail*/
     }
     
     

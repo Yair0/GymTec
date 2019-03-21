@@ -52,12 +52,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="SqQ-BU-OfT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1Hd-SQ-YWU"/>
                             <constraint firstItem="SqQ-BU-OfT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2IC-Pi-fRF"/>
                             <constraint firstItem="SqQ-BU-OfT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="98e-bJ-sRG"/>
                             <constraint firstItem="SqQ-BU-OfT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="F2M-t1-7mw"/>
                             <constraint firstItem="SqQ-BU-OfT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Lf5-Hc-o1x"/>
                             <constraint firstItem="SqQ-BU-OfT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Uni-L4-f6V"/>
                             <constraint firstItem="4lc-vq-eVQ" firstAttribute="top" secondItem="SqQ-BU-OfT" secondAttribute="bottom" constant="49" id="cwt-W2-aBo"/>
+                            <constraint firstItem="4lc-vq-eVQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mxB-4L-8Ok"/>
                             <constraint firstItem="4lc-vq-eVQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vg1-De-w71"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
