@@ -1,26 +1,29 @@
 //
-//  ProfileViewController.swift
+//  DetalleAchievementsViewController.swift
 //  GymTec
 //
-//  Created by cdt307 on 3/16/19.
+//  Created by cdt307 on 3/21/19.
 //  Copyright © 2019 Yair Pimentel. All rights reserved.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
-
+class DetalleAchievementsViewController: UIViewController {
+    var nom = ""
+    var date = ""
+    var desc = ""
+    @IBOutlet weak var achievementTitle: UILabel!
+    @IBOutlet weak var achievementDate: UILabel!
+    @IBOutlet weak var achievementDesc: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        achievementTitle.text = nom
+        achievementDate.text = date
+        achievementDesc.text = desc
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func LogOut(_ sender: UIButton) {
-        self.presentingViewController?.dismiss(animated: true, completion: nil)
-    }
-    
-    
+
     /*
     // MARK: - Navigation
 
