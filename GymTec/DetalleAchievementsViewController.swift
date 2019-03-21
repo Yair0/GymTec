@@ -1,22 +1,25 @@
 //
-//  DetalleRoutineViewController.swift
+//  DetalleAchievementsViewController.swift
 //  GymTec
 //
-//  Created by cdt307 on 3/20/19.
+//  Created by cdt307 on 3/21/19.
 //  Copyright © 2019 Yair Pimentel. All rights reserved.
 //
 
 import UIKit
 
-class DetalleRoutinesViewController: UIViewController {
-    var nom = "";
-    var descrip = "";
-    @IBOutlet weak var routineTitle: UILabel!
-    @IBOutlet weak var routineDesc: UITextView!
+class DetalleAchievementsViewController: UIViewController {
+    var nom = ""
+    var date = ""
+    var desc = ""
+    @IBOutlet weak var achievementTitle: UILabel!
+    @IBOutlet weak var achievementDate: UILabel!
+    @IBOutlet weak var achievementDesc: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        routineTitle.text = nom
-        routineDesc.text = descrip
+        achievementTitle.text = nom
+        achievementDate.text = date
+        achievementDesc.text = desc
         // Do any additional setup after loading the view.
     }
     

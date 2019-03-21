@@ -1,16 +1,16 @@
 //
-//  RoutineListViewController.swift
+//  AchievementsListViewController.swift
 //  GymTec
 //
-//  Created by cdt307 on 3/20/19.
+//  Created by cdt307 on 3/21/19.
 //  Copyright © 2019 Yair Pimentel. All rights reserved.
 //
 
 import UIKit
 
-class RoutineListViewController: UITableViewController, UISearchResultsUpdating {
-    let routinesStringURL =  "http://martinmolina.com.mx/201911/data/iGym/Routines.json"
-    var routinesObj:[Any]?
+class AchievementsListViewController: UITableViewController, UISearchResultsUpdating {
+    let achievementsStringURL =  "http://martinmolina.com.mx/201911/data/iGym/Archievements.json"
+    var achievementsObj:[Any]?
     
     func JSONParseArray(_ string: String) -> [AnyObject]{
         if let data = string.data(using: String.Encoding.utf8){
@@ -29,15 +29,15 @@ class RoutineListViewController: UITableViewController, UISearchResultsUpdating 
     }
     
     let searchController = UISearchController(searchResultsController: nil)
-    var routinesFiltrados = [Any]()
+    var achievementsFiltrados = [Any]()
     
     func updateSearchResults(for searchController: UISearchController) {
         if searchController.searchBar.text! == "" {
-            routinesFiltrados = routinesObj!
+            achievementsFiltrados = achievementsObj!
         }else{
-            routinesFiltrados = routinesObj!.filter{
-                let objetoRoutines = $0 as! [String:Any]
-                let s:String = objetoRoutines["Nombre"] as! String
+            achievementsFiltrados = achievementsObj!.filter{
+                let objetoAchievements = $0 as! [String:Any]
+                let s:String = objetoAchievements["Nombre"] as! String
                 return(s.lowercased().contains((searchController.searchBar.text!.lowercased())))
             }
         }
@@ -52,11 +52,11 @@ class RoutineListViewController: UITableViewController, UISearchResultsUpdating 
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        let routinesURL = URL(string: routinesStringURL)
-        let data = try? Data(contentsOf: routinesURL!)
-        routinesObj = try! JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? [AnyObject]
+        let achievementsURL = URL(string: achievementsStringURL)
+        let data = try? Data(contentsOf: achievementsURL!)
+        achievementsObj = try! JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? [AnyObject]
         
-        routinesFiltrados = routinesObj!
+        achievementsFiltrados = achievementsObj!
         
         // Se usa la vista actual para presentar los datos resultantes de la búsqueda
         // Linea de asignación del delegado
@@ -85,15 +85,15 @@ class RoutineListViewController: UITableViewController, UISearchResultsUpdating 
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return routinesFiltrados.count
+        return achievementsFiltrados.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "celda2", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "celda3", for: indexPath)
         
         // Configure the cell...
-        let objetoRoutines = routinesFiltrados[indexPath.row] as! [String:Any]
-        let nombre:String = objetoRoutines["Nombre"] as! String
+        let objetoAchievements = achievementsFiltrados[indexPath.row] as! [String:Any]
+        let nombre:String = objetoAchievements["Nombre"] as! String
         cell.textLabel?.text = nombre
         
         return cell
@@ -111,14 +111,16 @@ class RoutineListViewController: UITableViewController, UISearchResultsUpdating 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        var siguiente = segue.destination as! DetalleRoutinesViewController
+        var siguiente = segue.destination as! DetalleAchievementsViewController
         var indice = self.tableView.indexPathForSelectedRow?.row
         
-        let objetoRoutines = routinesFiltrados[indice!] as! [String:Any]
-        let nombre:String = objetoRoutines["Nombre"] as! String
-        let descripc:String = objetoRoutines["Descripcion"] as! String
+        let objetoAchievements = achievementsFiltrados[indice!] as! [String:Any]
+        let nombre:String = objetoAchievements["Nombre"] as! String
+        let fecha:String = objetoAchievements["Fechas"] as! String
+        let descripc:String = objetoAchievements["Descripcion"] as! String
         siguiente.nom = nombre
-        siguiente.descrip = descripc
+        siguiente.date = fecha
+        siguiente.desc = descripc
     }
     
     
@@ -126,3 +128,4 @@ class RoutineListViewController: UITableViewController, UISearchResultsUpdating 
         self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 }
+
