@@ -152,8 +152,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-bg2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="01J-IV-vM3">
+                                <rect key="frame" x="0.0" y="63" width="375" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="t2g-A9-0V9">
-                                <rect key="frame" x="54" y="125" width="267" height="403.5"/>
+                                <rect key="frame" x="54" y="81" width="267" height="403.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eZC-gH-nPJ">
                                         <rect key="frame" x="82" y="0.0" width="103.5" height="76.5"/>
@@ -284,10 +288,6 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-bg2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="d2S-qY-7aA">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <accessibility key="accessibilityConfiguration">
@@ -319,7 +319,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="73" translatesAutoresizingMaskIntoConstraints="NO" id="eLK-ef-NEF">
-                                <rect key="frame" x="45" y="159" width="285" height="499.5"/>
+                                <rect key="frame" x="45" y="115" width="285" height="499.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Toe-pd-6yi">
                                         <rect key="frame" x="91" y="0.0" width="103.5" height="75.5"/>
@@ -467,7 +467,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="RWr-mr-Pcx">
-                                <rect key="frame" x="18.5" y="105" width="338" height="441"/>
+                                <rect key="frame" x="18.5" y="61" width="338" height="441"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Tb-Hx-TXE">
                                         <rect key="frame" x="129" y="0.0" width="80.5" height="45.5"/>
@@ -580,12 +580,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-bg4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="huj-jX-CYh">
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app-bg4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FwH-IG-dHL">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="r2q-0u-w2V">
-                                <rect key="frame" x="91" y="109" width="193.5" height="439.5"/>
+                                <rect key="frame" x="91" y="65" width="193.5" height="439.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="HN5-bq-eZf">
                                         <rect key="frame" x="45" y="0.0" width="103.5" height="75.5"/>
@@ -1908,9 +1908,9 @@
         <image name="trophy.png" width="600" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WGA-dk-nQn"/>
+        <segue reference="jRN-aB-aGJ"/>
         <segue reference="any-pG-ThH"/>
-        <segue reference="ODP-ce-ypv"/>
+        <segue reference="Xgm-Xg-yIz"/>
         <segue reference="hTB-vV-2Ry"/>
     </inferredMetricsTieBreakers>
 </document>
