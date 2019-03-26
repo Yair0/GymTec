@@ -8,15 +8,36 @@
 
 import UIKit
 
+//Valid email https://stackoverflow.com/questions/25471114/how-to-validate-an-e-mail-address-in-swift
+
+let __firstpart = "[A-Z0-9a-z]([A-Z0-9a-z._%+-]{0,30}[A-Z0-9a-z])?"
+let __serverpart = "([A-Z0-9a-z]([A-Z0-9a-z-]{0,30}[A-Z0-9a-z])?\\.){1,5}"
+let __emailRegex = __firstpart + "@" + __serverpart + "[A-Za-z]{2,8}"
+let __emailPredicate = NSPredicate(format: "SELF MATCHES %@", __emailRegex)
+
+extension String {
+    func isEmail() -> Bool {
+        return __emailPredicate.evaluate(with: self)
+    }
+}
+
+extension UITextField {
+    func isEmail() -> Bool {
+        return self.text!.isEmail()
+    }
+}
+
 
 class SignInViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var validationLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Poner un background con una imagen en la misma carpeta, adaptable a todos los modelos de iPhone
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
         backgroundImage.image = UIImage(named: "app-bg.jpg")
         backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
@@ -31,12 +52,9 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         passwordTextField.delegate=self
         
         
-        
-
-        // Do any additional setup after loading the view.
     }
     
-    // UITextFieldDelegate Methodsç
+    // UITextFieldDelegate Methods
     
     @objc func hideKeyBoard (){
         for textField in self.view.subviews where textField is UITextField {
@@ -46,10 +64,16 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        //emailTextField.resignFirstResponder()
+        if(emailTextField.isEmail()){
+            validationLabel.text = "Correct email"
+        }else{
+            validationLabel.text = "Wrong email"
+        }
+        validationLabel.isHidden = false
         hideKeyBoard()
         return true
     }
+    
     
 
     /*
