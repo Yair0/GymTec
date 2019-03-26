@@ -45,6 +45,7 @@
 		89477BE72231A05000F313CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89477BE52231A05000F313CE /* Main.storyboard */; };
 		89477BE92231A05300F313CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89477BE82231A05300F313CE /* Assets.xcassets */; };
 		89477BEC2231A05300F313CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89477BEA2231A05300F313CE /* LaunchScreen.storyboard */; };
+		8991720E224ACB1900A6B238 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991720D224ACB1900A6B238 /* SignUpViewController.swift */; };
 		899CB5EA2249D4A500289D93 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CB5E92249D4A500289D93 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,7 +90,9 @@
 		89477BE82231A05300F313CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89477BEB2231A05300F313CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89477BED2231A05300F313CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8991720D224ACB1900A6B238 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		899CB5E92249D4A500289D93 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		89BC8816224AE22E007EBFBF /* GymTec.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GymTec.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,46 +125,48 @@
 		89477BDE2231A05000F313CE /* GymTec */ = {
 			isa = PBXGroup;
 			children = (
-				395B9B50223D8E43000CE2A2 /* 360Gym.png */,
-				395B9B3E223D5B52000CE2A2 /* AboutUSViewController.swift */,
-				396E32B42244176F001420FC /* AchievementsListViewController.swift */,
+				89BC8816224AE22E007EBFBF /* GymTec.entitlements */,
 				396E32BA2244220F001420FC /* app-bg.jpg */,
 				396E32BE22442797001420FC /* app-bg2.jpg */,
 				396E32C02244282C001420FC /* app-bg3.jpg */,
 				396E32C222442839001420FC /* app-bg4.jpg */,
-				89477BDF2231A05000F313CE /* AppDelegate.swift */,
-				89477BE82231A05300F313CE /* Assets.xcassets */,
-				396E32BC22442537001420FC /* ButtonImage.png */,
-				39A709902241E3D100B13BB1 /* certificate.png */,
-				396E32B022441481001420FC /* coach.png */,
-				395CEFC62241D32A00348BB6 /* CoachesListaViewController.swift */,
-				3922AADF2241BA5200BF0543 /* CoachesListViewController.swift */,
-				395CEFC22241C8B300348BB6 /* CoachPic.png */,
-				396E32B822441A9E001420FC /* DetalleAchievementsViewController.swift */,
-				395CEFBE2241C2FC00348BB6 /* DetalleCoachViewController.swift */,
-				39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */,
 				39D29B09224335EC007F0C4F /* dumbbell-64.jpg */,
 				39D29B0D22433698007F0C4F /* dumbbell-120.jpg */,
 				39D29B0B224335F3007F0C4F /* dumbbell-128.jpg */,
 				39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */,
+				39A7098E2241E2F700B13BB1 /* medalla.jpg */,
+				89477BED2231A05300F313CE /* Info.plist */,
+				395B9B50223D8E43000CE2A2 /* 360Gym.png */,
+				396E32BC22442537001420FC /* ButtonImage.png */,
+				39A709902241E3D100B13BB1 /* certificate.png */,
+				396E32B022441481001420FC /* coach.png */,
+				395CEFC22241C8B300348BB6 /* CoachPic.png */,
 				39D29B07224334F7007F0C4F /* dumbbell-512.png */,
 				396E32B2224414C7001420FC /* dumbbell2.png */,
-				395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */,
-				89477BE12231A05000F313CE /* FirstViewController.swift */,
 				395B9B4E223D8924000CE2A2 /* GymTec.png */,
-				89477BED2231A05300F313CE /* Info.plist */,
-				89477BEA2231A05300F313CE /* LaunchScreen.storyboard */,
-				89477BE52231A05000F313CE /* Main.storyboard */,
 				395B9B4C223D7B0A000CE2A2 /* MapaTec.png */,
-				39A7098E2241E2F700B13BB1 /* medalla.jpg */,
-				395B9B4A223D7839000CE2A2 /* ProfileViewController.swift */,
 				395B9B48223D7251000CE2A2 /* QR LOGO.png */,
 				395B9B42223D64DE000CE2A2 /* QrScreen.png */,
+				396E32B6224418CD001420FC /* trophy.png */,
+				395B9B3E223D5B52000CE2A2 /* AboutUSViewController.swift */,
+				396E32B42244176F001420FC /* AchievementsListViewController.swift */,
+				89477BDF2231A05000F313CE /* AppDelegate.swift */,
+				395CEFC62241D32A00348BB6 /* CoachesListaViewController.swift */,
+				3922AADF2241BA5200BF0543 /* CoachesListViewController.swift */,
+				396E32B822441A9E001420FC /* DetalleAchievementsViewController.swift */,
+				395CEFBE2241C2FC00348BB6 /* DetalleCoachViewController.swift */,
+				39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */,
+				395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */,
+				89477BE12231A05000F313CE /* FirstViewController.swift */,
+				395B9B4A223D7839000CE2A2 /* ProfileViewController.swift */,
 				39D29B112243382E007F0C4F /* RoutineListViewController.swift */,
 				89477BE32231A05000F313CE /* SecondViewController.swift */,
 				899CB5E92249D4A500289D93 /* SignInViewController.swift */,
-				396E32B6224418CD001420FC /* trophy.png */,
+				8991720D224ACB1900A6B238 /* SignUpViewController.swift */,
 				395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */,
+				89477BE82231A05300F313CE /* Assets.xcassets */,
+				89477BEA2231A05300F313CE /* LaunchScreen.storyboard */,
+				89477BE52231A05000F313CE /* Main.storyboard */,
 			);
 			path = GymTec;
 			sourceTree = "<group>";
@@ -198,6 +203,11 @@
 				TargetAttributes = {
 					89477BDB2231A05000F313CE = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -268,6 +278,7 @@
 				395B9B4B223D7839000CE2A2 /* ProfileViewController.swift in Sources */,
 				899CB5EA2249D4A500289D93 /* SignInViewController.swift in Sources */,
 				396E32B52244176F001420FC /* AchievementsListViewController.swift in Sources */,
+				8991720E224ACB1900A6B238 /* SignUpViewController.swift in Sources */,
 				395CEFC72241D32A00348BB6 /* CoachesListaViewController.swift in Sources */,
 				396E32B922441A9E001420FC /* DetalleAchievementsViewController.swift in Sources */,
 				395CEFBF2241C2FC00348BB6 /* DetalleCoachViewController.swift in Sources */,

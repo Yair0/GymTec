@@ -1,42 +1,33 @@
 //
-//  SignInViewController.swift
+//  SignUpViewController.swift
 //  GymTec
 //
-//  Created by Yair Pimentel on 3/25/19.
+//  Created by Yair Pimentel on 3/26/19.
 //  Copyright © 2019 Yair Pimentel. All rights reserved.
 //
 
 import UIKit
 
-//Override String to verify email https://stackoverflow.com/questions/25471114/how-to-validate-an-e-mail-address-in-swift
+class SignUpViewController: UIViewController, UITextFieldDelegate {
 
-let __firstpart = "[A-Z0-9a-z]([A-Z0-9a-z._%+-]{0,30}[A-Z0-9a-z])?"
-let __serverpart = "([A-Z0-9a-z]([A-Z0-9a-z-]{0,30}[A-Z0-9a-z])?\\.){1,5}"
-let __emailRegex = __firstpart + "@" + __serverpart + "[A-Za-z]{2,8}"
-let __emailPredicate = NSPredicate(format: "SELF MATCHES %@", __emailRegex)
-
-extension String {
-    func isEmail() -> Bool {
-        return __emailPredicate.evaluate(with: self)
-    }
-}
-
-extension UITextField {
-    func isEmail() -> Bool {
-        return self.text!.isEmail()
-    }
-}
-
-
-class SignInViewController: UIViewController, UITextFieldDelegate {
-
+    @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var weightTextField: UITextField!
+    @IBOutlet weak var heightTextField: UITextField!
+    @IBOutlet weak var sexTextField: UITextField!
+    @IBOutlet weak var dateTextField: UITextField!
     @IBOutlet weak var validationLabel: UILabel!
+    
+    private var datePicker = UIDatePicker()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        datePicker.datePickerMode = .date
+        dateTextField.inputView = datePicker
+
         //Poner un background con una imagen en la misma carpeta, adaptable a todos los modelos de iPhone
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
         backgroundImage.image = UIImage(named: "app-bg.jpg")
@@ -48,18 +39,24 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         view.addGestureRecognizer(tapGesture)
         
         //Los textfield se delegan a si mismos, proveniente de UITextFieldDelegate
+        nameTextField.delegate=self
         emailTextField.delegate=self
         passwordTextField.delegate=self
-        
+        weightTextField.delegate=self
+        heightTextField.delegate=self
+        sexTextField.delegate=self
+        dateTextField.delegate=self
         
     }
     
-    // UITextFieldDelegate Methods
+    //@objc func
     
     @objc func hideKeyBoard (){
         for textField in self.view.subviews where textField is UITextField {
             textField.resignFirstResponder()
         }
+        
+        
         view.endEditing(true)
     }
     
@@ -67,7 +64,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         hideKeyBoard()
         return true
     }
-    
+
     @IBAction func validateEmail(_ sender: UITextField) {
         if(emailTextField.isEmail()){
             validationLabel.text = "Correct email"
@@ -77,7 +74,6 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         validationLabel.isHidden = false
     }
     
-
     /*
     // MARK: - Navigation
 
