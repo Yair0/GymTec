@@ -45,6 +45,7 @@
 		89477BE72231A05000F313CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89477BE52231A05000F313CE /* Main.storyboard */; };
 		89477BE92231A05300F313CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89477BE82231A05300F313CE /* Assets.xcassets */; };
 		89477BEC2231A05300F313CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89477BEA2231A05300F313CE /* LaunchScreen.storyboard */; };
+		899CB5EA2249D4A500289D93 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CB5E92249D4A500289D93 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		89477BE82231A05300F313CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89477BEB2231A05300F313CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89477BED2231A05300F313CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899CB5E92249D4A500289D93 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				395B9B42223D64DE000CE2A2 /* QrScreen.png */,
 				39D29B112243382E007F0C4F /* RoutineListViewController.swift */,
 				89477BE32231A05000F313CE /* SecondViewController.swift */,
+				899CB5E92249D4A500289D93 /* SignInViewController.swift */,
 				396E32B6224418CD001420FC /* trophy.png */,
 				395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */,
 			);
@@ -263,6 +266,7 @@
 				39D29B1622433BCA007F0C4F /* DetalleRoutinesViewController.swift in Sources */,
 				395B9B47223D69B5000CE2A2 /* UpdateProfileViewController.swift in Sources */,
 				395B9B4B223D7839000CE2A2 /* ProfileViewController.swift in Sources */,
+				899CB5EA2249D4A500289D93 /* SignInViewController.swift in Sources */,
 				396E32B52244176F001420FC /* AchievementsListViewController.swift in Sources */,
 				395CEFC72241D32A00348BB6 /* CoachesListaViewController.swift in Sources */,
 				396E32B922441A9E001420FC /* DetalleAchievementsViewController.swift in Sources */,
@@ -415,13 +419,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C7ND5TF2LM;
+				DEVELOPMENT_TEAM = L264YC49L2;
 				INFOPLIST_FILE = GymTec/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec01;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652823.GymTec02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -433,13 +437,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C7ND5TF2LM;
+				DEVELOPMENT_TEAM = L264YC49L2;
 				INFOPLIST_FILE = GymTec/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec01;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652823.GymTec02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
