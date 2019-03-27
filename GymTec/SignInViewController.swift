@@ -28,11 +28,15 @@ extension UITextField {
 }
 
 
-class SignInViewController: UIViewController, UITextFieldDelegate {
 
+class SignInViewController: UIViewController, UITextFieldDelegate {
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var validationLabel: UILabel!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,6 +80,8 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         }
         validationLabel.isHidden = false
     }
+    
+   
     
 
     /*
