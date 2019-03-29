@@ -132,8 +132,8 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     @IBAction func validateEmail(_ sender: UITextField) {
         if(emailTextField.isEmail()){
             validationLabel.text = "Valid Email Format"
-            validationLabel.textColor = UIColor(displayP3Red: 1, green: 1, blue: 1, alpha: 1)
-            emailTextField.backgroundColor = UIColor(displayP3Red: 1, green: 1, blue: 1, alpha: 1)
+            validationLabel.textColor = UIColor(displayP3Red: 0.28, green: 0.98, blue: 0.28, alpha: 1)
+            emailTextField.backgroundColor = UIColor(displayP3Red: 0.28, green: 0.98, blue: 0.28, alpha: 1)
         }else{
             validationLabel.text = "Wrong Email Format"
             validationLabel.textColor = UIColor(displayP3Red: 0.99, green: 0.28, blue: 0.28, alpha: 1)
