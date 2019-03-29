@@ -821,7 +821,7 @@
         <!--Gimnasio CCM-->
         <scene sceneID="9P0-uF-klR">
             <objects>
-                <viewController title="Gimnasio CCM" id="CpM-Gw-hLu" customClass="GoogleMapsGimnasioCCMViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Gimnasio CCM" id="CpM-Gw-hLu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vct-P7-luN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -832,16 +832,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="CNu-0c-Tjt" firstAttribute="bottom" secondItem="xan-gi-i87" secondAttribute="bottom" id="CUJ-7F-sIA"/>
-                            <constraint firstItem="xan-gi-i87" firstAttribute="leading" secondItem="CNu-0c-Tjt" secondAttribute="leading" id="ni4-AY-4n6"/>
-                            <constraint firstItem="xan-gi-i87" firstAttribute="top" secondItem="CNu-0c-Tjt" secondAttribute="top" id="p0H-aF-ew4"/>
-                            <constraint firstItem="CNu-0c-Tjt" firstAttribute="trailing" secondItem="xan-gi-i87" secondAttribute="trailing" id="w0d-wE-jff"/>
+                            <constraint firstItem="CNu-0c-Tjt" firstAttribute="bottom" secondItem="VAw-7j-vIs" secondAttribute="bottom" constant="220" id="3Lc-AC-piC"/>
+                            <constraint firstItem="VAw-7j-vIs" firstAttribute="trailing" secondItem="Vct-P7-luN" secondAttribute="trailingMargin" id="7wJ-by-rSd"/>
+                            <constraint firstItem="VAw-7j-vIs" firstAttribute="leading" secondItem="Vct-P7-luN" secondAttribute="leadingMargin" id="fgE-ag-JH7"/>
+                            <constraint firstItem="VAw-7j-vIs" firstAttribute="top" secondItem="CNu-0c-Tjt" secondAttribute="top" constant="30" id="hlR-bi-N4d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CNu-0c-Tjt"/>
                     </view>
-                    <connections>
-                        <outlet property="mapa" destination="xan-gi-i87" id="Xd2-Wa-9J5"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eJm-39-xsB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -999,9 +996,9 @@
                                                 <rect key="frame" x="105.99999999999999" y="177.66666666666669" width="170.66666666666663" height="170.66666666666669"/>
                                                 <state key="normal" backgroundImage="360">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="Virtual Gym">
+                                                        <fragment content="360 view">
                                                             <attributes>
-                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <font key="NSFont" metaFont="system" size="15"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="9.5" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1009,7 +1006,7 @@
                                                     </attributedString>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="fiI-y9-H9b" kind="show" id="ckD-kf-L39"/>
+                                                    <segue destination="u5a-8o-hRi" kind="show" id="ykN-FE-uRm"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1105,48 +1102,6 @@
             </objects>
             <point key="canvasLocation" x="5644" y="1710"/>
         </scene>
-        <!--Virtual Gym-->
-        <scene sceneID="R82-4i-guK">
-            <objects>
-                <viewController title="Virtual Gym" id="fiI-y9-H9b" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eaL-pe-tmS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hO-93-ano">
-                                <rect key="frame" x="156" y="316" width="63" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Video AR"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3K-HC-VPN">
-                                <rect key="frame" x="163" y="458" width="48" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Photos"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfD-7l-cF5">
-                                <rect key="frame" x="150" y="391" width="75" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="3D objects"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZP5-i1-pj5">
-                                <rect key="frame" x="152" y="231" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="360 Video"/>
-                                <connections>
-                                    <segue destination="u5a-8o-hRi" kind="show" id="Wjt-9t-coS"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="UI1-en-NAj"/>
-                    </view>
-                    <toolbarItems/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="euE-Yh-M9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5646" y="2566"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="tC0-G6-JIO">
             <objects>
@@ -1171,7 +1126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aIh-Om-e1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7063" y="2099"/>
+            <point key="canvasLocation" x="5644" y="2402"/>
         </scene>
         <!--Detalle Coach View Controller-->
         <scene sceneID="1D4-hp-QZ4">
@@ -1545,117 +1500,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BNj-Bb-l7D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1662" y="-840"/>
-        </scene>
-        <!--Sign Up View Controller-->
-        <scene sceneID="cVh-2x-WuC">
-            <objects>
-                <viewController id="u4v-Q4-7LM" customClass="SignUpViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DqE-7R-iQX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fcx-Sy-2kG">
-                                <rect key="frame" x="118" y="127" width="139" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="no" textContentType="name"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uq3-bj-GH0">
-                                <rect key="frame" x="118" y="304" width="139" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartQuotesType="no" textContentType="password"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight in KG" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5SX-fx-1kH">
-                                <rect key="frame" x="118" y="364" width="139" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height in meters" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yvw-G8-jcd">
-                                <rect key="frame" x="118" y="424" width="139" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sex" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uME-96-Dzc">
-                                <rect key="frame" x="118" y="544" width="139" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" notEnabled="YES"/>
-                                </accessibility>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JAJ-VL-lV7">
-                                <rect key="frame" x="118" y="482" width="139" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" notEnabled="YES"/>
-                                </accessibility>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uv3-WY-1u1">
-                                <rect key="frame" x="118" y="187" width="139" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
-                                <connections>
-                                    <action selector="validateEmail:" destination="u4v-Q4-7LM" eventType="editingDidEnd" id="O2z-df-MCN"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6w9-na-MDa">
-                                <rect key="frame" x="164" y="598" width="47" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sign In"/>
-                                <connections>
-                                    <segue destination="FBs-Mr-Vhv" kind="presentation" id="KXv-fH-Le4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qjo-9x-cD4">
-                                <rect key="frame" x="88" y="658" width="198" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Have an account? Login here"/>
-                                <connections>
-                                    <segue destination="Oyb-9O-mHi" kind="show" id="uaO-K3-Q3L"/>
-                                </connections>
-                            </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daP-MP-1uw">
-                                <rect key="frame" x="74" y="250" width="227" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="XOY-Gm-ZoF"/>
-                    </view>
-                    <connections>
-                        <outlet property="dateTextField" destination="JAJ-VL-lV7" id="P6H-ie-xO4"/>
-                        <outlet property="emailTextField" destination="Uv3-WY-1u1" id="iTm-oL-JtD"/>
-                        <outlet property="heightTextField" destination="yvw-G8-jcd" id="pJc-BE-GMS"/>
-                        <outlet property="nameTextField" destination="Fcx-Sy-2kG" id="3xg-WP-hiP"/>
-                        <outlet property="passwordTextField" destination="Uq3-bj-GH0" id="fNG-r2-Ly9"/>
-                        <outlet property="sexTextField" destination="uME-96-Dzc" id="aR8-tq-lMC"/>
-                        <outlet property="validationLabel" destination="daP-MP-1uw" id="cov-B2-aUn"/>
-                        <outlet property="weightTextField" destination="5SX-fx-1kH" id="k3Y-Kf-Ak0"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OWt-1h-MXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2148" y="-822"/>
         </scene>
     </scenes>
     <resources>

@@ -38,7 +38,6 @@
 		39D29B10224336B6007F0C4F /* dumbbell-180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */; };
 		39D29B122243382E007F0C4F /* RoutineListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D29B112243382E007F0C4F /* RoutineListViewController.swift */; };
 		39D29B1622433BCA007F0C4F /* DetalleRoutinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */; };
-		39F81ABD224D94EE0004C35F /* GoogleMapsGimnasioCCMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F81ABC224D94EE0004C35F /* GoogleMapsGimnasioCCMViewController.swift */; };
 		8934540E224B2AEA00ECF92A /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934540D224B2AEA00ECF92A /* KeyboardLayoutConstraint.swift */; };
 		89477BE02231A05000F313CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BDF2231A05000F313CE /* AppDelegate.swift */; };
 		89477BE22231A05000F313CE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BE12231A05000F313CE /* FirstViewController.swift */; };
@@ -83,7 +82,6 @@
 		39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dumbbell-180.jpg"; sourceTree = "<group>"; };
 		39D29B112243382E007F0C4F /* RoutineListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineListViewController.swift; sourceTree = "<group>"; };
 		39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRoutinesViewController.swift; sourceTree = "<group>"; };
-		39F81ABC224D94EE0004C35F /* GoogleMapsGimnasioCCMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsGimnasioCCMViewController.swift; sourceTree = "<group>"; };
 		8934540D224B2AEA00ECF92A /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
 		89477BDC2231A05000F313CE /* GymTec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymTec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89477BDF2231A05000F313CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 				89477BE82231A05300F313CE /* Assets.xcassets */,
 				89477BEA2231A05300F313CE /* LaunchScreen.storyboard */,
 				89477BE52231A05000F313CE /* Main.storyboard */,
-				39F81ABC224D94EE0004C35F /* GoogleMapsGimnasioCCMViewController.swift */,
 			);
 			path = GymTec;
 			sourceTree = "<group>";
@@ -280,7 +277,6 @@
 				39D29B122243382E007F0C4F /* RoutineListViewController.swift in Sources */,
 				89477BE02231A05000F313CE /* AppDelegate.swift in Sources */,
 				3922AAE02241BA5200BF0543 /* CoachesListViewController.swift in Sources */,
-				39F81ABD224D94EE0004C35F /* GoogleMapsGimnasioCCMViewController.swift in Sources */,
 				39D29B1622433BCA007F0C4F /* DetalleRoutinesViewController.swift in Sources */,
 				395B9B47223D69B5000CE2A2 /* UpdateProfileViewController.swift in Sources */,
 				395B9B4B223D7839000CE2A2 /* ProfileViewController.swift in Sources */,
