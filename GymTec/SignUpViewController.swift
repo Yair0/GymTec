@@ -33,6 +33,8 @@ import UIKit
 
 class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate {
     
+
+    
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -44,21 +46,18 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
 
     //Inicializar el DatePicker
     private var datePicker = UIDatePicker()
+    
     var pickOption = ["Male", "Female", "Other"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "gymPattern.png")
-        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
-        self.view.insertSubview(backgroundImage, at: 0)
-        
         
         //Picker View for Sex
         let weightPicker = UIPickerView()
         weightPicker.delegate = self
         sexTextField.inputView = weightPicker
+        
         
         //ToolBar para añadir un Done al DatePicker
         let toolBar = UIToolbar().ToolbarPiker(mySelect: #selector(dismissPicker))
@@ -131,14 +130,9 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIPickerViewD
     //Funcion que valida que el correo este bien colocado
     @IBAction func validateEmail(_ sender: UITextField) {
         if(emailTextField.isEmail()){
-            validationLabel.text = "Valid Email Format"
-            validationLabel.textColor = UIColor(displayP3Red: 1, green: 1, blue: 1, alpha: 1)
-            emailTextField.backgroundColor = UIColor(displayP3Red: 1, green: 1, blue: 1, alpha: 1)
+            validationLabel.text = "Correct email"
         }else{
-            validationLabel.text = "Wrong Email Format"
-            validationLabel.textColor = UIColor(displayP3Red: 0.99, green: 0.28, blue: 0.28, alpha: 1)
-            emailTextField.backgroundColor = UIColor(displayP3Red: 0.99, green: 0.28, blue: 0.28, alpha: 1)
-            
+            validationLabel.text = "Wrong email"
         }
         validationLabel.isHidden = false
     }
