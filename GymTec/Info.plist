@@ -25,8 +25,10 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>GymTec wants to use the camera</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>GymTec desea saber tu ubicacion</string>
+	<string>GymTec wants to use your location</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

@@ -1,8 +1,8 @@
 //
-//  GoogleMapsGimnasioCCMViewController.swift
+//  GoogleMapGymCCMViewController.swift
 //  GymTec
 //
-//  Created by cdt307 on 3/28/19.
+//  Created by cdt307 on 3/29/19.
 //  Copyright © 2019 Yair Pimentel. All rights reserved.
 //
 
@@ -10,11 +10,9 @@ import MapKit
 import CoreLocation
 import UIKit
 
-
-class GoogleMapsGimnasioCCMViewController: UIViewController, CLLocationManagerDelegate {
+class GoogleMapGymCCMViewController: UIViewController, CLLocationManagerDelegate{
 
     @IBOutlet weak var mapa: MKMapView!
-    
     let locationManager = CLLocationManager()
     
     
@@ -73,4 +71,3 @@ class GoogleMapsGimnasioCCMViewController: UIViewController, CLLocationManagerDe
     
     
 }
-
