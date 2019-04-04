@@ -16,7 +16,7 @@ class ProfileViewController: UIViewController {
     
     @IBOutlet weak var profileCollection: UICollectionView!
     let cellNames = ["Profile QR", "Scan friend QR", "Edit profile", "Trophies"]
-    var cellImages = ["chest.png", "qr_cel.png", "360-degrees.png", "clipboard-2.png"]
+    var cellImages = ["scan_qr_profile.png", "qr_cel.png", "tablet.png", "award.png"]
     var cellSegueIDs = ["profile_qr", "scan_qr", "edit_profile", "achievements"]
     var estimateWidth = 150.0
     var cellMarginSize = 15.0
@@ -25,7 +25,7 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        setBackground(url: "weights2_bg.jpg", target: self)
+        setBackground(url: "grey_bg.jpeg", target: self)
         //Set Delegates
         self.profileCollection.delegate = self
         self.profileCollection.dataSource = self

@@ -17,6 +17,7 @@ class DetalleAchievementsViewController: UIViewController {
     @IBOutlet weak var achievementDesc: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        setBackground(url: "grey_bg.jpeg", target: self)
         achievementTitle.text = nom
         achievementDate.text = date
         achievementDesc.text = desc
