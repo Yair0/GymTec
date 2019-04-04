@@ -1,25 +1,21 @@
 //
-//  TrainerTabViewController.swift
+//  EquipmentSectionViewController.swift
 //  GymTec
 //
-//  Created by cdt307 on 3/30/19.
+//  Created by periodismo on 03/04/19.
 //  Copyright © 2019 Yair Pimentel. All rights reserved.
 //
-/* Tutoriales:
- - https://www.youtube.com/watch?v=FMqX628vE1c
- - https://www.youtube.com/watch?v=pwZCksvXGRw
-*/
+
 import UIKit
 
-class TrainerTabViewController: UIViewController {
+class EquipmentSectionViewController: UIViewController {
+    @IBOutlet weak var equipmentCollection: UICollectionView!
     
-    @IBOutlet weak var trainerCollection: UICollectionView!
-    
-    let cellNames = ["Routine", "Request Coach"]
-    var cellImages = ["clipboard.png", "trainer_request.png"]
-    var cellSegueIDs = ["routines", "trainer"]
-    var estimateWidth = 250.0
-    var cellMarginSize = 100.0
+    let cellNames = ["Identify Equipment", "Scan Exercise QR", "360 View", "Report equipment"]
+    var cellImages = ["dumbbell.png", "gym_edif.png", "gym_edif.png", "gym_edif.png"]
+    var cellSegueIDs = ["equipment", "gym_map", "gym_map", "gym_map"]
+    var estimateWidth = 150.0
+    var cellMarginSize = 15.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,18 +23,18 @@ class TrainerTabViewController: UIViewController {
         // Do any additional setup after loading the view.
         setBackground(url: "barbells_bg.jpg", target: self)
         //Set Delegates
-        self.trainerCollection.delegate = self
-        self.trainerCollection.dataSource = self
+        self.equipmentCollection.delegate = self
+        self.equipmentCollection.dataSource = self
         
         // Register cells
-        self.trainerCollection.register(UINib(nibName: ("TrainerCell"), bundle: nil), forCellWithReuseIdentifier: "TrainerCell")
+        self.equipmentCollection.register(UINib(nibName: ("TrainerCell"), bundle: nil), forCellWithReuseIdentifier: "TrainerCell")
         
         // SetupGrid View
         self.setupGridView()
     }
     
     func setupGridView(){
-        let flow = trainerCollection.collectionViewLayout as! UICollectionViewFlowLayout
+        let flow = equipmentCollection.collectionViewLayout as! UICollectionViewFlowLayout
         flow.minimumInteritemSpacing = CGFloat(self.cellMarginSize)
         flow.minimumLineSpacing = CGFloat(self.cellMarginSize)
     }
@@ -50,13 +46,13 @@ class TrainerTabViewController: UIViewController {
     }
 }
 
-extension TrainerTabViewController : UICollectionViewDataSource{
+extension EquipmentSectionViewController : UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.cellNames.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = trainerCollection.dequeueReusableCell(withReuseIdentifier: "TrainerCell", for: indexPath) as! TrainerCell
+        let cell = equipmentCollection.dequeueReusableCell(withReuseIdentifier: "TrainerCell", for: indexPath) as! TrainerCell
         cell.setData(text: self.cellNames[indexPath.row])
         cell.setImage(url: self.cellImages[indexPath.row])
         
@@ -64,7 +60,7 @@ extension TrainerTabViewController : UICollectionViewDataSource{
     }
 }
 
-extension TrainerTabViewController : UICollectionViewDelegateFlowLayout{
+extension EquipmentSectionViewController : UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = self.calculateWidth()
         return CGSize(width: width, height: width)

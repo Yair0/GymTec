@@ -15,11 +15,11 @@ class GymTabViewController: UIViewController {
     
     @IBOutlet weak var gymCollection: UICollectionView!
     
-    let cellNames = ["Equipment", "Locate Gym", "Report Equipment"]
-    var cellImages = ["clipboard.png", "trainer_request.png", "trainer_request.png"]
-    var cellSegueIDs = ["equipment", "gym_map", "report_equipment"]
-    var estimateWidth = 150.0
-    var cellMarginSize = 20.0
+    let cellNames = ["Equipment", "Locate Gym"]
+    var cellImages = ["dumbbell.png", "gym_edif.png"]
+    var cellSegueIDs = ["equipment", "gym_map"]
+    var estimateWidth = 250.0
+    var cellMarginSize = 100.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
