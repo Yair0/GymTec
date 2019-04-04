@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3905930A22556D0B00546B9A /* GymTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905930922556D0A00546B9A /* GymTabViewController.swift */; };
 		3922AAE02241BA5200BF0543 /* CoachesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922AADF2241BA5200BF0543 /* CoachesListViewController.swift */; };
-<<<<<<< HEAD
 		3926A5A7224FD6CA006BE4B6 /* TrainerTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926A5A6224FD6CA006BE4B6 /* TrainerTabViewController.swift */; };
 		3926A5A9224FD76D006BE4B6 /* gymPattern2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3926A5A8224FD76C006BE4B6 /* gymPattern2.jpg */; };
 		3926A5AD224FDB76006BE4B6 /* gym_pattern4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3926A5AA224FDB76006BE4B6 /* gym_pattern4.jpg */; };
@@ -19,8 +18,6 @@
 		3926A5BC224FE908006BE4B6 /* TrainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3926A5BA224FE908006BE4B6 /* TrainerCell.xib */; };
 		3926A5BE22500A71006BE4B6 /* trainer_request.png in Resources */ = {isa = PBXBuildFile; fileRef = 3926A5BD22500A71006BE4B6 /* trainer_request.png */; };
 		3926A5C022500A99006BE4B6 /* clipboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3926A5BF22500A99006BE4B6 /* clipboard.png */; };
-=======
->>>>>>> origin/master
 		395B9B43223D64DE000CE2A2 /* QrScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 395B9B42223D64DE000CE2A2 /* QrScreen.png */; };
 		395B9B45223D6603000CE2A2 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */; };
 		395B9B47223D69B5000CE2A2 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */; };
@@ -64,13 +61,10 @@
 		39D29B10224336B6007F0C4F /* dumbbell-180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */; };
 		39D29B122243382E007F0C4F /* RoutineListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D29B112243382E007F0C4F /* RoutineListViewController.swift */; };
 		39D29B1622433BCA007F0C4F /* DetalleRoutinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */; };
-<<<<<<< HEAD
 		76C237A22255852F008A1CCC /* dumbbell.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C237A12255852F008A1CCC /* dumbbell.png */; };
 		76C237A422558539008A1CCC /* gym_edif.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C237A322558539008A1CCC /* gym_edif.png */; };
 		76C237A62255874F008A1CCC /* gym_schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C237A52255874E008A1CCC /* gym_schedule.png */; };
 		76C237A822558CF0008A1CCC /* EquipmentSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C237A722558CF0008A1CCC /* EquipmentSectionViewController.swift */; };
-=======
->>>>>>> origin/master
 		8934540E224B2AEA00ECF92A /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934540D224B2AEA00ECF92A /* KeyboardLayoutConstraint.swift */; };
 		89477BE02231A05000F313CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BDF2231A05000F313CE /* AppDelegate.swift */; };
 		89477BE22231A05000F313CE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89477BE12231A05000F313CE /* FirstViewController.swift */; };
@@ -78,11 +72,7 @@
 		89477BE72231A05000F313CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89477BE52231A05000F313CE /* Main.storyboard */; };
 		89477BE92231A05300F313CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89477BE82231A05300F313CE /* Assets.xcassets */; };
 		89477BEC2231A05300F313CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89477BEA2231A05300F313CE /* LaunchScreen.storyboard */; };
-<<<<<<< HEAD
 		89750BAD224DEC6A009678EA /* gym_pattern3.png in Resources */ = {isa = PBXBuildFile; fileRef = 89750BAC224DEC6A009678EA /* gym_pattern3.png */; };
-=======
-		89750BAD224DEC6A009678EA /* gymPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 89750BAC224DEC6A009678EA /* gymPattern.png */; };
->>>>>>> origin/master
 		8991720E224ACB1900A6B238 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991720D224ACB1900A6B238 /* SignUpViewController.swift */; };
 		899CB5EA2249D4A500289D93 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CB5E92249D4A500289D93 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
@@ -90,7 +80,6 @@
 /* Begin PBXFileReference section */
 		3905930922556D0A00546B9A /* GymTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymTabViewController.swift; sourceTree = "<group>"; };
 		3922AADF2241BA5200BF0543 /* CoachesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachesListViewController.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		3926A5A6224FD6CA006BE4B6 /* TrainerTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerTabViewController.swift; sourceTree = "<group>"; };
 		3926A5A8224FD76C006BE4B6 /* gymPattern2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gymPattern2.jpg; sourceTree = "<group>"; };
 		3926A5AA224FDB76006BE4B6 /* gym_pattern4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gym_pattern4.jpg; sourceTree = "<group>"; };
@@ -100,8 +89,6 @@
 		3926A5BA224FE908006BE4B6 /* TrainerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainerCell.xib; sourceTree = "<group>"; };
 		3926A5BD22500A71006BE4B6 /* trainer_request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trainer_request.png; sourceTree = "<group>"; };
 		3926A5BF22500A99006BE4B6 /* clipboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard.png; sourceTree = "<group>"; };
-=======
->>>>>>> origin/master
 		395B9B42223D64DE000CE2A2 /* QrScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QrScreen.png; sourceTree = "<group>"; };
 		395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
@@ -145,13 +132,10 @@
 		39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dumbbell-180.jpg"; sourceTree = "<group>"; };
 		39D29B112243382E007F0C4F /* RoutineListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineListViewController.swift; sourceTree = "<group>"; };
 		39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRoutinesViewController.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		76C237A12255852F008A1CCC /* dumbbell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dumbbell.png; sourceTree = "<group>"; };
 		76C237A322558539008A1CCC /* gym_edif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gym_edif.png; sourceTree = "<group>"; };
 		76C237A52255874E008A1CCC /* gym_schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gym_schedule.png; sourceTree = "<group>"; };
 		76C237A722558CF0008A1CCC /* EquipmentSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentSectionViewController.swift; sourceTree = "<group>"; };
-=======
->>>>>>> origin/master
 		8934540D224B2AEA00ECF92A /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
 		89477BDC2231A05000F313CE /* GymTec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymTec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89477BDF2231A05000F313CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,11 +145,7 @@
 		89477BE82231A05300F313CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89477BEB2231A05300F313CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89477BED2231A05300F313CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		89750BAC224DEC6A009678EA /* gym_pattern3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gym_pattern3.png; sourceTree = "<group>"; };
-=======
-		89750BAC224DEC6A009678EA /* gymPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gymPattern.png; sourceTree = "<group>"; };
->>>>>>> origin/master
 		8991720D224ACB1900A6B238 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		899CB5E92249D4A500289D93 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		89BC8816224AE22E007EBFBF /* GymTec.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GymTec.entitlements; sourceTree = "<group>"; };
@@ -220,13 +200,9 @@
 				39D29B0D22433698007F0C4F /* dumbbell-120.jpg */,
 				39D29B0B224335F3007F0C4F /* dumbbell-128.jpg */,
 				39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */,
-<<<<<<< HEAD
 				3926A5AC224FDB76006BE4B6 /* gym_pattern2.jpg */,
 				3926A5AA224FDB76006BE4B6 /* gym_pattern4.jpg */,
 				3926A5A8224FD76C006BE4B6 /* gymPattern2.jpg */,
-=======
-				89750BAC224DEC6A009678EA /* gymPattern.png */,
->>>>>>> origin/master
 				39A7098E2241E2F700B13BB1 /* medalla.jpg */,
 				39AF0E4C2255A7DD00582D09 /* tennis_bg.jpg */,
 				39AF0E562255AF6700582D09 /* dumbells2_bg.jpg */,
@@ -379,12 +355,8 @@
 				89477BE92231A05300F313CE /* Assets.xcassets in Resources */,
 				3926A5BE22500A71006BE4B6 /* trainer_request.png in Resources */,
 				39A709912241E3D100B13BB1 /* certificate.png in Resources */,
-<<<<<<< HEAD
 				39AF0E532255ACA600582D09 /* weights2_bg.jpg in Resources */,
 				89750BAD224DEC6A009678EA /* gym_pattern3.png in Resources */,
-=======
-				89750BAD224DEC6A009678EA /* gymPattern.png in Resources */,
->>>>>>> origin/master
 				395B9B43223D64DE000CE2A2 /* QrScreen.png in Resources */,
 				39AF0E47225597CD00582D09 /* qr_cel.png in Resources */,
 				39AF0E43225597C000582D09 /* chest.png in Resources */,
@@ -578,21 +550,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-<<<<<<< HEAD
 				DEVELOPMENT_TEAM = C7ND5TF2LM;
-=======
-				DEVELOPMENT_TEAM = L264YC49L2;
->>>>>>> origin/master
 				INFOPLIST_FILE = GymTec/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec01;
-=======
-				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652823.GymTec02;
->>>>>>> origin/master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -604,21 +568,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-<<<<<<< HEAD
 				DEVELOPMENT_TEAM = C7ND5TF2LM;
-=======
-				DEVELOPMENT_TEAM = L264YC49L2;
->>>>>>> origin/master
 				INFOPLIST_FILE = GymTec/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec01;
-=======
-				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652823.GymTec02;
->>>>>>> origin/master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

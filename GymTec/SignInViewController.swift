@@ -70,14 +70,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         self.navigationController?.navigationBar.isTranslucent = true
         
         //Poner un background con una imagen en la misma carpeta, adaptable a todos los modelos de iPhone
-<<<<<<< HEAD
         setBackground(url: "gym_pattern3.png", target: self)
-=======
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "gymPattern.png")
-        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
-        self.view.insertSubview(backgroundImage, at: 0)
->>>>>>> origin/master
         
         //Esconder teclado al presionar cualquier lado de la pantalla
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyBoard))
