@@ -25,7 +25,7 @@ class GymTabViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        setBackground(url: "barbells_bg.jpg", target: self)
+        setBackground(url: "dumbells2_bg.jpg", target: self)
         //Set Delegates
         self.gymCollection.delegate = self
         self.gymCollection.dataSource = self

@@ -41,7 +41,7 @@ class GoogleMapGymCCMViewController: UIViewController, CLLocationManagerDelegate
         let pin = MKPointAnnotation()
         pin.coordinate = punto
         pin.title = "Gymnasio CCM"
-        pin.subtitle = "Lets lift!"
+        pin.subtitle = "Let's lift!"
         mapa.addAnnotation(pin)
         
         

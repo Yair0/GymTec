@@ -12,8 +12,8 @@ class EquipmentSectionViewController: UIViewController {
     @IBOutlet weak var equipmentCollection: UICollectionView!
     
     let cellNames = ["Identify Equipment", "Scan Exercise QR", "360 View", "Report equipment"]
-    var cellImages = ["dumbbell.png", "gym_edif.png", "gym_edif.png", "gym_edif.png"]
-    var cellSegueIDs = ["equipment", "gym_map", "gym_map", "gym_map"]
+    var cellImages = ["chest.png", "qr_cel.png", "360-degrees.png", "clipboard-2.png"]
+    var cellSegueIDs = ["identify_equipment", "scan_exercise", "360_view", "report_equipment"]
     var estimateWidth = 150.0
     var cellMarginSize = 15.0
     
@@ -21,7 +21,7 @@ class EquipmentSectionViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        setBackground(url: "barbells_bg.jpg", target: self)
+        setBackground(url: "dumbells2_bg.jpg", target: self)
         //Set Delegates
         self.equipmentCollection.delegate = self
         self.equipmentCollection.dataSource = self

@@ -44,6 +44,16 @@
 		396E32C322442839001420FC /* app-bg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 396E32C222442839001420FC /* app-bg4.jpg */; };
 		39A7098F2241E2F800B13BB1 /* medalla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A7098E2241E2F700B13BB1 /* medalla.jpg */; };
 		39A709912241E3D100B13BB1 /* certificate.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A709902241E3D100B13BB1 /* certificate.png */; };
+		39AF0E43225597C000582D09 /* chest.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E42225597BF00582D09 /* chest.png */; };
+		39AF0E45225597C800582D09 /* 360-degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E44225597C700582D09 /* 360-degrees.png */; };
+		39AF0E47225597CD00582D09 /* qr_cel.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E46225597CC00582D09 /* qr_cel.png */; };
+		39AF0E49225597D000582D09 /* 360-degrees.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E48225597D000582D09 /* 360-degrees.png */; };
+		39AF0E4B22559BFC00582D09 /* clipboard-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E4A22559BFC00582D09 /* clipboard-2.png */; };
+		39AF0E4D2255A7DE00582D09 /* tennis_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E4C2255A7DD00582D09 /* tennis_bg.jpg */; };
+		39AF0E512255ACA000582D09 /* weights_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E502255AC9F00582D09 /* weights_bg.jpg */; };
+		39AF0E532255ACA600582D09 /* weights2_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E522255ACA600582D09 /* weights2_bg.jpg */; };
+		39AF0E552255ADA500582D09 /* weights3_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E542255ADA500582D09 /* weights3_bg.jpg */; };
+		39AF0E572255AF6800582D09 /* dumbells2_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39AF0E562255AF6700582D09 /* dumbells2_bg.jpg */; };
 		39D29B08224334F7007F0C4F /* dumbbell-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D29B07224334F7007F0C4F /* dumbbell-512.png */; };
 		39D29B0A224335EC007F0C4F /* dumbbell-64.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39D29B09224335EC007F0C4F /* dumbbell-64.jpg */; };
 		39D29B0C224335F3007F0C4F /* dumbbell-128.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39D29B0B224335F3007F0C4F /* dumbbell-128.jpg */; };
@@ -105,6 +115,16 @@
 		396E32C222442839001420FC /* app-bg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "app-bg4.jpg"; sourceTree = "<group>"; };
 		39A7098E2241E2F700B13BB1 /* medalla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medalla.jpg; sourceTree = "<group>"; };
 		39A709902241E3D100B13BB1 /* certificate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = certificate.png; sourceTree = "<group>"; };
+		39AF0E42225597BF00582D09 /* chest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chest.png; sourceTree = "<group>"; };
+		39AF0E44225597C700582D09 /* 360-degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "360-degrees.png"; sourceTree = "<group>"; };
+		39AF0E46225597CC00582D09 /* qr_cel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_cel.png; sourceTree = "<group>"; };
+		39AF0E48225597D000582D09 /* 360-degrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "360-degrees.png"; path = "../../../Downloads/360-degrees.png"; sourceTree = "<group>"; };
+		39AF0E4A22559BFC00582D09 /* clipboard-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clipboard-2.png"; sourceTree = "<group>"; };
+		39AF0E4C2255A7DD00582D09 /* tennis_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennis_bg.jpg; sourceTree = "<group>"; };
+		39AF0E502255AC9F00582D09 /* weights_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weights_bg.jpg; sourceTree = "<group>"; };
+		39AF0E522255ACA600582D09 /* weights2_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weights2_bg.jpg; sourceTree = "<group>"; };
+		39AF0E542255ADA500582D09 /* weights3_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weights3_bg.jpg; sourceTree = "<group>"; };
+		39AF0E562255AF6700582D09 /* dumbells2_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dumbells2_bg.jpg; sourceTree = "<group>"; };
 		39D29B07224334F7007F0C4F /* dumbbell-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dumbbell-512.png"; sourceTree = "<group>"; };
 		39D29B09224335EC007F0C4F /* dumbbell-64.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dumbbell-64.jpg"; sourceTree = "<group>"; };
 		39D29B0B224335F3007F0C4F /* dumbbell-128.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dumbbell-128.jpg"; sourceTree = "<group>"; };
@@ -184,24 +204,34 @@
 				3926A5AA224FDB76006BE4B6 /* gym_pattern4.jpg */,
 				3926A5A8224FD76C006BE4B6 /* gymPattern2.jpg */,
 				39A7098E2241E2F700B13BB1 /* medalla.jpg */,
+				39AF0E4C2255A7DD00582D09 /* tennis_bg.jpg */,
+				39AF0E562255AF6700582D09 /* dumbells2_bg.jpg */,
+				39AF0E502255AC9F00582D09 /* weights_bg.jpg */,
+				39AF0E522255ACA600582D09 /* weights2_bg.jpg */,
+				39AF0E542255ADA500582D09 /* weights3_bg.jpg */,
 				89477BED2231A05300F313CE /* Info.plist */,
+				39AF0E44225597C700582D09 /* 360-degrees.png */,
+				39AF0E48225597D000582D09 /* 360-degrees.png */,
 				395B9B50223D8E43000CE2A2 /* 360Gym.png */,
 				396E32BC22442537001420FC /* ButtonImage.png */,
 				39A709902241E3D100B13BB1 /* certificate.png */,
-				76C237A52255874E008A1CCC /* gym_schedule.png */,
+				39AF0E42225597BF00582D09 /* chest.png */,
+				39AF0E4A22559BFC00582D09 /* clipboard-2.png */,
 				3926A5BF22500A99006BE4B6 /* clipboard.png */,
 				396E32B022441481001420FC /* coach.png */,
 				395CEFC22241C8B300348BB6 /* CoachPic.png */,
 				39D29B07224334F7007F0C4F /* dumbbell-512.png */,
-				396E32B2224414C7001420FC /* dumbbell2.png */,
-				89750BAC224DEC6A009678EA /* gym_pattern3.png */,
 				76C237A12255852F008A1CCC /* dumbbell.png */,
+				396E32B2224414C7001420FC /* dumbbell2.png */,
+				76C237A322558539008A1CCC /* gym_edif.png */,
+				89750BAC224DEC6A009678EA /* gym_pattern3.png */,
+				76C237A52255874E008A1CCC /* gym_schedule.png */,
 				395B9B4E223D8924000CE2A2 /* GymTec.png */,
 				395B9B4C223D7B0A000CE2A2 /* MapaTec.png */,
 				395B9B48223D7251000CE2A2 /* QR LOGO.png */,
+				39AF0E46225597CC00582D09 /* qr_cel.png */,
 				395B9B42223D64DE000CE2A2 /* QrScreen.png */,
 				3926A5BD22500A71006BE4B6 /* trainer_request.png */,
-				76C237A322558539008A1CCC /* gym_edif.png */,
 				396E32B6224418CD001420FC /* trophy.png */,
 				396E32B42244176F001420FC /* AchievementsListViewController.swift */,
 				89477BDF2231A05000F313CE /* AppDelegate.swift */,
@@ -212,8 +242,10 @@
 				395CEFBE2241C2FC00348BB6 /* DetalleCoachViewController.swift */,
 				39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */,
 				395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */,
+				76C237A722558CF0008A1CCC /* EquipmentSectionViewController.swift */,
 				89477BE12231A05000F313CE /* FirstViewController.swift */,
 				395D97C0224F01E50056AA8D /* GoogleMapGymCCMViewController.swift */,
+				3905930922556D0A00546B9A /* GymTabViewController.swift */,
 				8934540D224B2AEA00ECF92A /* KeyboardLayoutConstraint.swift */,
 				395B9B4A223D7839000CE2A2 /* ProfileViewController.swift */,
 				39D29B112243382E007F0C4F /* RoutineListViewController.swift */,
@@ -227,8 +259,6 @@
 				3926A5B2224FDFD6006BE4B6 /* ItemCell */,
 				89477BEA2231A05300F313CE /* LaunchScreen.storyboard */,
 				89477BE52231A05000F313CE /* Main.storyboard */,
-				3905930922556D0A00546B9A /* GymTabViewController.swift */,
-				76C237A722558CF0008A1CCC /* EquipmentSectionViewController.swift */,
 			);
 			path = GymTec;
 			sourceTree = "<group>";
@@ -297,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76C237A22255852F008A1CCC /* dumbbell.png in Resources */,
+				39AF0E4B22559BFC00582D09 /* clipboard-2.png in Resources */,
 				39D29B0C224335F3007F0C4F /* dumbbell-128.jpg in Resources */,
 				39D29B0A224335EC007F0C4F /* dumbbell-64.jpg in Resources */,
 				396E32BF22442798001420FC /* app-bg2.jpg in Resources */,
@@ -315,19 +346,28 @@
 				396E32BD22442538001420FC /* ButtonImage.png in Resources */,
 				395B9B51223D8E44000CE2A2 /* 360Gym.png in Resources */,
 				3926A5AF224FDB76006BE4B6 /* gym_pattern2.jpg in Resources */,
+				39AF0E45225597C800582D09 /* 360-degrees.png in Resources */,
+				39AF0E552255ADA500582D09 /* weights3_bg.jpg in Resources */,
 				395CEFC32241C8B300348BB6 /* CoachPic.png in Resources */,
+				39AF0E4D2255A7DE00582D09 /* tennis_bg.jpg in Resources */,
 				396E32B122441481001420FC /* coach.png in Resources */,
 				3926A5B1224FDD8B006BE4B6 /* barbells_bg.jpg in Resources */,
 				89477BE92231A05300F313CE /* Assets.xcassets in Resources */,
 				3926A5BE22500A71006BE4B6 /* trainer_request.png in Resources */,
 				39A709912241E3D100B13BB1 /* certificate.png in Resources */,
+				39AF0E532255ACA600582D09 /* weights2_bg.jpg in Resources */,
 				89750BAD224DEC6A009678EA /* gym_pattern3.png in Resources */,
 				395B9B43223D64DE000CE2A2 /* QrScreen.png in Resources */,
+				39AF0E47225597CD00582D09 /* qr_cel.png in Resources */,
+				39AF0E43225597C000582D09 /* chest.png in Resources */,
+				39AF0E512255ACA000582D09 /* weights_bg.jpg in Resources */,
 				89477BE72231A05000F313CE /* Main.storyboard in Resources */,
+				39AF0E49225597D000582D09 /* 360-degrees.png in Resources */,
 				3926A5A9224FD76D006BE4B6 /* gymPattern2.jpg in Resources */,
 				39D29B10224336B6007F0C4F /* dumbbell-180.jpg in Resources */,
 				3926A5AD224FDB76006BE4B6 /* gym_pattern4.jpg in Resources */,
 				395B9B4D223D7B0B000CE2A2 /* MapaTec.png in Resources */,
+				39AF0E572255AF6800582D09 /* dumbells2_bg.jpg in Resources */,
 				39D29B0E22433698007F0C4F /* dumbbell-120.jpg in Resources */,
 				39D29B08224334F7007F0C4F /* dumbbell-512.png in Resources */,
 				3926A5BC224FE908006BE4B6 /* TrainerCell.xib in Resources */,
