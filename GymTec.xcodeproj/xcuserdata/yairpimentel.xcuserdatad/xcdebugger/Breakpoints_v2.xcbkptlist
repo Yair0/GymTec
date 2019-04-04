@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GymTec/SignInViewController.swift"
+            timestampString = "575532207.380043"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_74F4DD5A3832C6F828F987F9737A9661_func2"
+                  moduleName = "GymTec"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yairpimentel/Documents/6_Semestre/2_Dispositivos_Moviles/Clases%20Swift/GymTec/GymTec/SignInViewController.swift"
+                  timestampString = "575329337.87884"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GymTec.__emailRegex.unsafeMutableAddressor : Swift.String"
+                  moduleName = "GymTec"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yairpimentel/Documents/6_Semestre/2_Dispositivos_Moviles/Clases%20Swift/GymTec/GymTec/SignInViewController.swift"
+                  timestampString = "575329337.881624"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
