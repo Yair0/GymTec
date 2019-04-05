@@ -12,7 +12,7 @@ class UpdateProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setBackground(url: "grey_bg.jpeg", target: self)
         // Do any additional setup after loading the view.
     }
     

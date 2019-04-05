@@ -27,6 +27,15 @@ extension UITextField {
     }
 }
 
+extension UIViewController {
+    func setBackground(url:String, target:UIViewController) {
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: url)
+        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
+        target.view.insertSubview(backgroundImage, at: 0)
+    }
+}
+
 
 
 class SignInViewController: UIViewController, UITextFieldDelegate {
@@ -61,10 +70,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         self.navigationController?.navigationBar.isTranslucent = true
         
         //Poner un background con una imagen en la misma carpeta, adaptable a todos los modelos de iPhone
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "gymPattern.png")
-        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
-        self.view.insertSubview(backgroundImage, at: 0)
+        setBackground(url: "gym_pattern3.png", target: self)
         
         //Esconder teclado al presionar cualquier lado de la pantalla
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyBoard))
