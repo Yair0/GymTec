@@ -73,6 +73,8 @@
 		39D29B10224336B6007F0C4F /* dumbbell-180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */; };
 		39D29B122243382E007F0C4F /* RoutineListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D29B112243382E007F0C4F /* RoutineListViewController.swift */; };
 		39D29B1622433BCA007F0C4F /* DetalleRoutinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */; };
+		764EC8E2225842B1007EDCF4 /* ThreeSixtyObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EC8E1225842B1007EDCF4 /* ThreeSixtyObjectViewController.swift */; };
+		764EC92A22585505007EDCF4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 764EC92922585505007EDCF4 /* art.scnassets */; };
 		76C237A22255852F008A1CCC /* dumbbell.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C237A12255852F008A1CCC /* dumbbell.png */; };
 		76C237A422558539008A1CCC /* gym_edif.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C237A322558539008A1CCC /* gym_edif.png */; };
 		76C237A62255874F008A1CCC /* gym_schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C237A52255874E008A1CCC /* gym_schedule.png */; };
@@ -156,6 +158,8 @@
 		39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dumbbell-180.jpg"; sourceTree = "<group>"; };
 		39D29B112243382E007F0C4F /* RoutineListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineListViewController.swift; sourceTree = "<group>"; };
 		39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRoutinesViewController.swift; sourceTree = "<group>"; };
+		764EC8E1225842B1007EDCF4 /* ThreeSixtyObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSixtyObjectViewController.swift; sourceTree = "<group>"; };
+		764EC92922585505007EDCF4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		76C237A12255852F008A1CCC /* dumbbell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dumbbell.png; sourceTree = "<group>"; };
 		76C237A322558539008A1CCC /* gym_edif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gym_edif.png; sourceTree = "<group>"; };
 		76C237A52255874E008A1CCC /* gym_schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gym_schedule.png; sourceTree = "<group>"; };
@@ -214,20 +218,33 @@
 		89477BDE2231A05000F313CE /* GymTec */ = {
 			isa = PBXGroup;
 			children = (
+				89BC8816224AE22E007EBFBF /* GymTec.entitlements */,
+				39A22C3622568F49007368CF /* grey_bg.jpeg */,
 				39B7ADFB2256DC3B003D7ACB /* 305HPanono - Conversion de energia.jpg */,
-				39AF0E44225597C700582D09 /* 360-degrees.png */,
-				395B9B50223D8E43000CE2A2 /* 360Gym.png */,
-				39A22C2C225685A0007368CF /* 360SectionViewController.swift */,
-				396E32B42244176F001420FC /* AchievementsListViewController.swift */,
 				396E32BA2244220F001420FC /* app-bg.jpg */,
 				396E32BE22442797001420FC /* app-bg2.jpg */,
 				396E32C02244282C001420FC /* app-bg3.jpg */,
 				396E32C222442839001420FC /* app-bg4.jpg */,
-				89477BDF2231A05000F313CE /* AppDelegate.swift */,
-				89477BE82231A05300F313CE /* Assets.xcassets */,
-				395D97BE224F01230056AA8D /* AugmentedRealityVideoViewController.swift */,
-				39A22C3222568BEE007368CF /* award.png */,
 				3926A5B0224FDD8B006BE4B6 /* barbells_bg.jpg */,
+				39D29B09224335EC007F0C4F /* dumbbell-64.jpg */,
+				39D29B0D22433698007F0C4F /* dumbbell-120.jpg */,
+				39D29B0B224335F3007F0C4F /* dumbbell-128.jpg */,
+				39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */,
+				39AF0E562255AF6700582D09 /* dumbells2_bg.jpg */,
+				3926A5AC224FDB76006BE4B6 /* gym_pattern2.jpg */,
+				3926A5AA224FDB76006BE4B6 /* gym_pattern4.jpg */,
+				3926A5A8224FD76C006BE4B6 /* gymPattern2.jpg */,
+				39A7098E2241E2F700B13BB1 /* medalla.jpg */,
+				39A22C242256838A007368CF /* red_bg.jpg */,
+				39AF0E4C2255A7DD00582D09 /* tennis_bg.jpg */,
+				39AF0E502255AC9F00582D09 /* weights_bg.jpg */,
+				39AF0E522255ACA600582D09 /* weights2_bg.jpg */,
+				39AF0E542255ADA500582D09 /* weights3_bg.jpg */,
+				39A22C262256838D007368CF /* yellow_bg.jpg */,
+				89477BED2231A05300F313CE /* Info.plist */,
+				39AF0E44225597C700582D09 /* 360-degrees.png */,
+				395B9B50223D8E43000CE2A2 /* 360Gym.png */,
+				39A22C3222568BEE007368CF /* award.png */,
 				39A22C2822568390007368CF /* blue_bg.png */,
 				396E32BC22442537001420FC /* ButtonImage.png */,
 				39A709902241E3D100B13BB1 /* certificate.png */,
@@ -235,66 +252,55 @@
 				39AF0E4A22559BFC00582D09 /* clipboard-2.png */,
 				3926A5BF22500A99006BE4B6 /* clipboard.png */,
 				396E32B022441481001420FC /* coach.png */,
-				395CEFC62241D32A00348BB6 /* CoachesListaViewController.swift */,
-				3922AADF2241BA5200BF0543 /* CoachesListViewController.swift */,
 				395CEFC22241C8B300348BB6 /* CoachPic.png */,
-				396E32B822441A9E001420FC /* DetalleAchievementsViewController.swift */,
-				395CEFBE2241C2FC00348BB6 /* DetalleCoachViewController.swift */,
-				39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */,
-				39D29B09224335EC007F0C4F /* dumbbell-64.jpg */,
-				39D29B0D22433698007F0C4F /* dumbbell-120.jpg */,
-				39D29B0B224335F3007F0C4F /* dumbbell-128.jpg */,
-				39D29B0F224336B6007F0C4F /* dumbbell-180.jpg */,
 				39D29B07224334F7007F0C4F /* dumbbell-512.png */,
 				76C237A12255852F008A1CCC /* dumbbell.png */,
 				396E32B2224414C7001420FC /* dumbbell2.png */,
-				39AF0E562255AF6700582D09 /* dumbells2_bg.jpg */,
-				395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */,
-				76C237A722558CF0008A1CCC /* EquipmentSectionViewController.swift */,
-				89477BE12231A05000F313CE /* FirstViewController.swift */,
-				395D97C0224F01E50056AA8D /* GoogleMapGymCCMViewController.swift */,
 				39A22C3422568CE2007368CF /* green_bg.png */,
-				39A22C3622568F49007368CF /* grey_bg.jpeg */,
 				76C237A322558539008A1CCC /* gym_edif.png */,
-				3926A5AC224FDB76006BE4B6 /* gym_pattern2.jpg */,
 				89750BAC224DEC6A009678EA /* gym_pattern3.png */,
-				3926A5AA224FDB76006BE4B6 /* gym_pattern4.jpg */,
 				76C237A52255874E008A1CCC /* gym_schedule.png */,
-				3926A5A8224FD76C006BE4B6 /* gymPattern2.jpg */,
-				3905930922556D0A00546B9A /* GymTabViewController.swift */,
-				89BC8816224AE22E007EBFBF /* GymTec.entitlements */,
 				395B9B4E223D8924000CE2A2 /* GymTec.png */,
-				89477BED2231A05300F313CE /* Info.plist */,
-				3926A5B2224FDFD6006BE4B6 /* ItemCell */,
-				8934540D224B2AEA00ECF92A /* KeyboardLayoutConstraint.swift */,
-				89477BEA2231A05300F313CE /* LaunchScreen.storyboard */,
-				89477BE52231A05000F313CE /* Main.storyboard */,
 				395B9B4C223D7B0A000CE2A2 /* MapaTec.png */,
-				39A7098E2241E2F700B13BB1 /* medalla.jpg */,
-				395B9B4A223D7839000CE2A2 /* ProfileViewController.swift */,
 				395B9B48223D7251000CE2A2 /* QR LOGO.png */,
 				39AF0E46225597CC00582D09 /* qr_cel.png */,
 				395B9B42223D64DE000CE2A2 /* QrScreen.png */,
-				39A22C242256838A007368CF /* red_bg.jpg */,
+				39A22C2E22568B2D007368CF /* scan_qr_profile.png */,
+				39A22C3022568BD4007368CF /* tablet.png */,
+				3926A5BD22500A71006BE4B6 /* trainer_request.png */,
+				396E32B6224418CD001420FC /* trophy.png */,
+				39A22C2C225685A0007368CF /* 360SectionViewController.swift */,
+				396E32B42244176F001420FC /* AchievementsListViewController.swift */,
+				89477BDF2231A05000F313CE /* AppDelegate.swift */,
+				395D97BE224F01230056AA8D /* AugmentedRealityVideoViewController.swift */,
+				395CEFC62241D32A00348BB6 /* CoachesListaViewController.swift */,
+				3922AADF2241BA5200BF0543 /* CoachesListViewController.swift */,
+				396E32B822441A9E001420FC /* DetalleAchievementsViewController.swift */,
+				395CEFBE2241C2FC00348BB6 /* DetalleCoachViewController.swift */,
+				39D29B1522433BCA007F0C4F /* DetalleRoutinesViewController.swift */,
+				395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */,
+				76C237A722558CF0008A1CCC /* EquipmentSectionViewController.swift */,
+				89477BE12231A05000F313CE /* FirstViewController.swift */,
+				39B7ADF92256D91F003D7ACB /* Gimnasio360ViewController.swift */,
+				395D97C0224F01E50056AA8D /* GoogleMapGymCCMViewController.swift */,
+				3905930922556D0A00546B9A /* GymTabViewController.swift */,
+				8934540D224B2AEA00ECF92A /* KeyboardLayoutConstraint.swift */,
+				39B7ADFF2256F5C2003D7ACB /* MediaGimmnasioViewController.swift */,
+				395B9B4A223D7839000CE2A2 /* ProfileViewController.swift */,
 				39A22C2A2256854F007368CF /* ReportEquipmentViewController.swift */,
 				39D29B112243382E007F0C4F /* RoutineListViewController.swift */,
-				39A22C2E22568B2D007368CF /* scan_qr_profile.png */,
 				89477BE32231A05000F313CE /* SecondViewController.swift */,
 				899CB5E92249D4A500289D93 /* SignInViewController.swift */,
 				8991720D224ACB1900A6B238 /* SignUpViewController.swift */,
-				39A22C3022568BD4007368CF /* tablet.png */,
-				39AF0E4C2255A7DD00582D09 /* tennis_bg.jpg */,
+				764EC8E1225842B1007EDCF4 /* ThreeSixtyObjectViewController.swift */,
 				395D97BC224EFE900056AA8D /* ThreeSixtyVideoViewController.swift */,
-				3926A5BD22500A71006BE4B6 /* trainer_request.png */,
 				3926A5A6224FD6CA006BE4B6 /* TrainerTabViewController.swift */,
-				396E32B6224418CD001420FC /* trophy.png */,
 				395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */,
-				39AF0E502255AC9F00582D09 /* weights_bg.jpg */,
-				39AF0E522255ACA600582D09 /* weights2_bg.jpg */,
-				39AF0E542255ADA500582D09 /* weights3_bg.jpg */,
-				39A22C262256838D007368CF /* yellow_bg.jpg */,
-				39B7ADF92256D91F003D7ACB /* Gimnasio360ViewController.swift */,
-				39B7ADFF2256F5C2003D7ACB /* MediaGimmnasioViewController.swift */,
+				89477BE82231A05300F313CE /* Assets.xcassets */,
+				3926A5B2224FDFD6006BE4B6 /* ItemCell */,
+				89477BEA2231A05300F313CE /* LaunchScreen.storyboard */,
+				89477BE52231A05000F313CE /* Main.storyboard */,
+				764EC92922585505007EDCF4 /* art.scnassets */,
 			);
 			path = GymTec;
 			sourceTree = "<group>";
@@ -374,6 +380,7 @@
 				395B9B49223D7251000CE2A2 /* QR LOGO.png in Resources */,
 				396E32BB22442210001420FC /* app-bg.jpg in Resources */,
 				396E32C322442839001420FC /* app-bg4.jpg in Resources */,
+				764EC92A22585505007EDCF4 /* art.scnassets in Resources */,
 				39A7098F2241E2F800B13BB1 /* medalla.jpg in Resources */,
 				396E32C12244282C001420FC /* app-bg3.jpg in Resources */,
 				89477BEC2231A05300F313CE /* LaunchScreen.storyboard in Resources */,
@@ -435,6 +442,7 @@
 				395B9B47223D69B5000CE2A2 /* UpdateProfileViewController.swift in Sources */,
 				395B9B4B223D7839000CE2A2 /* ProfileViewController.swift in Sources */,
 				39A22C2B2256854F007368CF /* ReportEquipmentViewController.swift in Sources */,
+				764EC8E2225842B1007EDCF4 /* ThreeSixtyObjectViewController.swift in Sources */,
 				899CB5EA2249D4A500289D93 /* SignInViewController.swift in Sources */,
 				396E32B52244176F001420FC /* AchievementsListViewController.swift in Sources */,
 				3926A5BB224FE908006BE4B6 /* TrainerCell.swift in Sources */,
@@ -598,7 +606,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SVT8C4AR57;
 				DEVELOPMENT_TEAM = C7ND5TF2LM;
 				INFOPLIST_FILE = GymTec/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -606,7 +613,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652241.GymTec01;
 				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -619,7 +625,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SVT8C4AR57;
 				DEVELOPMENT_TEAM = C7ND5TF2LM;
 				INFOPLIST_FILE = GymTec/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -627,7 +632,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652241.GymTec01;
 				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

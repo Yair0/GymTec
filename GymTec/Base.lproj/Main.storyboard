@@ -1402,48 +1402,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6WM-qi-59J">
-                                <rect key="frame" x="163" y="87" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="360 Video"/>
-                                <connections>
-                                    <segue destination="Svy-tM-K6r" kind="show" id="QAS-KX-jyp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOT-po-NDt">
-                                <rect key="frame" x="166" y="149" width="64" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="360 Gym"/>
-                                <connections>
-                                    <segue destination="u5a-8o-hRi" kind="show" id="GTJ-uT-hkk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqp-Ts-PNd">
-                                <rect key="frame" x="160" y="207" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="3D Objects"/>
-                                <connections>
-                                    <segue destination="nIo-oy-u7r" kind="show" id="40d-uk-hfK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4T-me-vMn">
-                                <rect key="frame" x="163" y="274" width="63" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="AR Video"/>
-                                <connections>
-                                    <segue destination="7Wr-GI-TYe" kind="show" id="CTr-aY-6sZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wX1-sO-U4c">
-                                <rect key="frame" x="173" y="332" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Media"/>
-                                <connections>
-                                    <segue destination="Nlt-ph-r3l" kind="show" id="Wmo-7y-p5s"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="2FF-w1-zoM">
+                                <rect key="frame" x="110" y="94" width="194" height="274"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6WM-qi-59J">
+                                        <rect key="frame" x="2" y="0.0" width="190" height="30"/>
+                                        <state key="normal" title="360 Video"/>
+                                        <connections>
+                                            <segue destination="Svy-tM-K6r" kind="show" id="QAS-KX-jyp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOT-po-NDt">
+                                        <rect key="frame" x="2" y="61" width="190" height="30"/>
+                                        <state key="normal" title="360 Gym"/>
+                                        <connections>
+                                            <segue destination="u5a-8o-hRi" kind="show" id="GTJ-uT-hkk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqp-Ts-PNd">
+                                        <rect key="frame" x="2" y="122" width="190" height="30"/>
+                                        <state key="normal" title="3D Objects"/>
+                                        <connections>
+                                            <segue destination="nIo-oy-u7r" kind="show" id="40d-uk-hfK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4T-me-vMn">
+                                        <rect key="frame" x="2" y="183" width="190" height="30"/>
+                                        <state key="normal" title="AR Video"/>
+                                        <connections>
+                                            <segue destination="7Wr-GI-TYe" kind="show" id="CTr-aY-6sZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wX1-sO-U4c">
+                                        <rect key="frame" x="2" y="244" width="190" height="30"/>
+                                        <state key="normal" title="Media"/>
+                                        <connections>
+                                            <segue destination="Nlt-ph-r3l" kind="show" id="Wmo-7y-p5s"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Mqp-Ts-PNd" firstAttribute="leading" secondItem="2FF-w1-zoM" secondAttribute="leading" constant="2" id="HHO-a5-hZf"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q4T-me-vMn" secondAttribute="trailing" constant="2" id="QvP-PK-Do9"/>
+                                    <constraint firstItem="Q4T-me-vMn" firstAttribute="leading" secondItem="2FF-w1-zoM" secondAttribute="leading" constant="2" id="YQ4-pl-tB9"/>
+                                    <constraint firstItem="6WM-qi-59J" firstAttribute="leading" secondItem="2FF-w1-zoM" secondAttribute="leading" constant="2" id="ZcM-xO-mYO"/>
+                                    <constraint firstItem="wX1-sO-U4c" firstAttribute="leading" secondItem="2FF-w1-zoM" secondAttribute="leading" constant="2" id="jh6-3z-jha"/>
+                                    <constraint firstAttribute="trailing" secondItem="wX1-sO-U4c" secondAttribute="trailing" constant="2" id="mQQ-7D-yff"/>
+                                    <constraint firstItem="hOT-po-NDt" firstAttribute="leading" secondItem="2FF-w1-zoM" secondAttribute="leading" constant="2" id="od3-Yt-QfF"/>
+                                    <constraint firstAttribute="trailing" secondItem="6WM-qi-59J" secondAttribute="trailing" constant="2" id="qTf-4q-CkA"/>
+                                    <constraint firstAttribute="trailing" secondItem="hOT-po-NDt" secondAttribute="trailing" constant="2" id="sSv-um-VHl"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mqp-Ts-PNd" secondAttribute="trailing" constant="2" id="v3Q-bf-zV1"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2FF-w1-zoM" firstAttribute="top" secondItem="9Zo-XC-Bhc" secondAttribute="top" constant="50" id="3Ou-rD-QnN"/>
+                            <constraint firstItem="2FF-w1-zoM" firstAttribute="leading" secondItem="9Zo-XC-Bhc" secondAttribute="leading" constant="110" id="UyX-Fp-sPH"/>
+                            <constraint firstItem="9Zo-XC-Bhc" firstAttribute="trailing" secondItem="2FF-w1-zoM" secondAttribute="trailing" constant="110" id="hFi-7M-sia"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9Zo-XC-Bhc"/>
                     </view>
                 </viewController>
@@ -1480,20 +1497,49 @@
             </objects>
             <point key="canvasLocation" x="4585" y="2719"/>
         </scene>
-        <!--View Controller-->
+        <!--360 Object-->
         <scene sceneID="GoO-DG-FIE">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="nIo-oy-u7r" sceneMemberID="viewController">
+                <viewController title="360 Object" hidesBottomBarWhenPushed="YES" id="nIo-oy-u7r" customClass="ThreeSixtyObjectViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wwn-S5-3Zt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJw-vM-KTO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </arscnView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="fOR-IP-11N" firstAttribute="trailing" secondItem="tJw-vM-KTO" secondAttribute="trailing" id="SAw-cz-5PQ"/>
+                            <constraint firstItem="tJw-vM-KTO" firstAttribute="top" secondItem="fOR-IP-11N" secondAttribute="top" id="rr9-5Z-qN6"/>
+                            <constraint firstItem="tJw-vM-KTO" firstAttribute="leading" secondItem="fOR-IP-11N" secondAttribute="leading" id="uak-ZU-3KN"/>
+                            <constraint firstItem="fOR-IP-11N" firstAttribute="bottom" secondItem="tJw-vM-KTO" secondAttribute="bottom" id="xXC-Q3-ald"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fOR-IP-11N"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="bPB-cp-WY1" appends="YES" id="drP-h6-2T6"/>
+                            <outletCollection property="gestureRecognizers" destination="PNP-HQ-g6I" appends="YES" id="FjW-Ie-bHL"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="sceneView" destination="tJw-vM-KTO" id="bWF-p5-5tQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w19-IB-uSk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bPB-cp-WY1">
+                    <connections>
+                        <action selector="tapGesture:" destination="nIo-oy-u7r" id="xqR-NC-Hkp"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <rotationGestureRecognizer id="PNP-HQ-g6I">
+                    <connections>
+                        <action selector="rotationGesture:" destination="nIo-oy-u7r" id="poi-49-3iQ"/>
+                    </connections>
+                </rotationGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="4230" y="3450"/>
+            <point key="canvasLocation" x="4228.985507246377" y="3450"/>
         </scene>
         <!--Media Gimmnasio View Controller-->
         <scene sceneID="lBC-yo-Far">
