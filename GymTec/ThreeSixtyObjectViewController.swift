@@ -11,12 +11,14 @@ import SceneKit
 import ARKit
 
 class ThreeSixtyObjectViewController: UIViewController, ARSCNViewDelegate {
-
-    
     @IBOutlet var sceneView: ARSCNView!
     var mancuerna = SCNNode()
     
-    @IBAction func tapGesture(_ sender: UITapGestureRecognizer) {
+    @IBAction func resizeModel(_ sender: UIPinchGestureRecognizer) {
+        
+        mancuerna.scale = SCNVector3(sender.scale, sender.scale, sender.scale)
+    }
+    /*@IBAction func tapGesture(_ sender: UITapGestureRecognizer) {
         let currentScene = sender.view as! SCNView
         let location = sender.location(in: currentScene)
         let hitResults = currentScene.hitTest(location, options: [:])
@@ -28,7 +30,7 @@ class ThreeSixtyObjectViewController: UIViewController, ARSCNViewDelegate {
     
     @IBAction func rotationGesture(_ sender: UIRotationGestureRecognizer) {
         mancuerna.eulerAngles = SCNVector3(0, sender.rotation, 0)
-    }
+    }*/
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +44,7 @@ class ThreeSixtyObjectViewController: UIViewController, ARSCNViewDelegate {
         // Crear objeto de mancuerna
         let scene = SCNScene()
         
-        if let filePath = Bundle.main.path(forResource: "pug", ofType: "dae", inDirectory: "art.scnassets"){
+        if let filePath = Bundle.main.path(forResource: "dumbbell3", ofType: "dae", inDirectory: "art.scnassets"){
             // ReferenceNode path -> ReferenceNode URL
             let referenceURL = URL(fileURLWithPath: filePath)
             // Crear nodo de referencia
@@ -56,7 +58,7 @@ class ThreeSixtyObjectViewController: UIViewController, ARSCNViewDelegate {
          materialMancuerna.diffuse.contents = UIImage(named:"pug_tex.jpg")
         mancuerna.geometry?.materials = [materialMancuerna]
         
-        mancuerna.position = SCNVector3(0, 0, -0.5)
+        mancuerna.position = SCNVector3(x:0, y:0, z:-0.5)
         scene.rootNode.addChildNode(mancuerna)
         
         //Asignar la mancuerna a la vista

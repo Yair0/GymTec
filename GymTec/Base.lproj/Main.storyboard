@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HSN-jb-ehe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HSN-jb-ehe">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -195,7 +195,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="85" translatesAutoresizingMaskIntoConstraints="NO" id="nCS-CM-xOf">
-                                <rect key="frame" x="59" y="77" width="296" height="418.5"/>
+                                <rect key="frame" x="59" y="77" width="296" height="274.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYg-0U-BTC">
                                         <rect key="frame" x="108" y="0.0" width="80.5" height="45.5"/>
@@ -213,7 +213,7 @@
                                         <size key="shadowOffset" width="0.0" height="1"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QR LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="fgq-9z-EkQ">
-                                        <rect key="frame" x="0.0" y="130.5" width="296" height="288"/>
+                                        <rect key="frame" x="74" y="130.5" width="148" height="144"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -512,7 +512,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QrScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="gRO-Zm-2kg">
-                                <rect key="frame" x="-18" y="142" width="450" height="798"/>
+                                <rect key="frame" x="94.5" y="142" width="225" height="399"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -897,7 +897,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GymTec.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ds5-SE-hyL">
-                                <rect key="frame" x="-18" y="44" width="450" height="798"/>
+                                <rect key="frame" x="94.5" y="44" width="225" height="399"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1507,6 +1507,10 @@
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJw-vM-KTO">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="53v-1c-0Hy" appends="YES" id="7nn-bH-lIg"/>
+                                </connections>
                             </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1518,26 +1522,17 @@
                             <constraint firstItem="fOR-IP-11N" firstAttribute="bottom" secondItem="tJw-vM-KTO" secondAttribute="bottom" id="xXC-Q3-ald"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fOR-IP-11N"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="bPB-cp-WY1" appends="YES" id="drP-h6-2T6"/>
-                            <outletCollection property="gestureRecognizers" destination="PNP-HQ-g6I" appends="YES" id="FjW-Ie-bHL"/>
-                        </connections>
                     </view>
                     <connections>
                         <outlet property="sceneView" destination="tJw-vM-KTO" id="bWF-p5-5tQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w19-IB-uSk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="bPB-cp-WY1">
+                <pinchGestureRecognizer id="53v-1c-0Hy">
                     <connections>
-                        <action selector="tapGesture:" destination="nIo-oy-u7r" id="xqR-NC-Hkp"/>
+                        <action selector="resizeModel:" destination="nIo-oy-u7r" id="ACC-pT-I4U"/>
                     </connections>
-                </tapGestureRecognizer>
-                <rotationGestureRecognizer id="PNP-HQ-g6I">
-                    <connections>
-                        <action selector="rotationGesture:" destination="nIo-oy-u7r" id="poi-49-3iQ"/>
-                    </connections>
-                </rotationGestureRecognizer>
+                </pinchGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="4228.985507246377" y="3450"/>
         </scene>
@@ -1598,11 +1593,11 @@
     </scenes>
     <resources>
         <image name="CoachPic.png" width="300" height="300"/>
-        <image name="GymTec.png" width="450" height="798"/>
-        <image name="QR LOGO.png" width="296" height="288"/>
-        <image name="QrScreen.png" width="450" height="798"/>
-        <image name="coach.png" width="1600" height="1600"/>
-        <image name="dumbbell2.png" width="512" height="512"/>
+        <image name="GymTec.png" width="225" height="399"/>
+        <image name="QR LOGO.png" width="148" height="144"/>
+        <image name="QrScreen.png" width="225" height="399"/>
+        <image name="coach.png" width="40" height="40"/>
+        <image name="dumbbell2.png" width="299.70730590820312" height="299.70730590820312"/>
         <image name="gym" width="16" height="16"/>
         <image name="profile" width="16" height="16"/>
         <image name="trainer" width="16" height="16"/>
