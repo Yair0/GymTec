@@ -25,7 +25,7 @@ class TrainerTabViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        setBackground(url: "barbells_bg.jpg", target: self)
+        setBackground(url: "grey_bg.jpeg", target: self)
         //Set Delegates
         self.trainerCollection.delegate = self
         self.trainerCollection.dataSource = self
