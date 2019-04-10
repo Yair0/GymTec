@@ -18,7 +18,7 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet var sceneView: ARSCNView!
     
     let player = AVPlayer(url: URL(string: "http://all360media.com/wp-content/uploads/pano/laphil/media/video-ios.mp4")!)
-    
+    var videoAlreadyExists = false
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,10 +42,14 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
     {
         let tapGesto = UITapGestureRecognizer(target: self, action: #selector(tapEnPantalla))
         self.sceneView.addGestureRecognizer(tapGesto)
+        
     }
     
     @objc func tapEnPantalla(manejador:UIGestureRecognizer)
     {
+        if videoAlreadyExists{
+            return
+        }
         
         player.volume = 0.5
         
@@ -100,6 +104,7 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
         //---> pantallaPlanaNodo.eulerAngles = SCNVector3(Double.pi, 0, 0)
         self.sceneView.scene.rootNode.addChildNode(tierra)
         
+        videoAlreadyExists = true
     }
     
     
