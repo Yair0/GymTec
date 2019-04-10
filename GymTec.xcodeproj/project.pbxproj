@@ -18,6 +18,7 @@
 		3926A5BC224FE908006BE4B6 /* TrainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3926A5BA224FE908006BE4B6 /* TrainerCell.xib */; };
 		3926A5BE22500A71006BE4B6 /* trainer_request.png in Resources */ = {isa = PBXBuildFile; fileRef = 3926A5BD22500A71006BE4B6 /* trainer_request.png */; };
 		3926A5C022500A99006BE4B6 /* clipboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3926A5BF22500A99006BE4B6 /* clipboard.png */; };
+		392B4ACE225E6FE900B755B6 /* main_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 392B4ACD225E6FE900B755B6 /* main_btn.png */; };
 		395B9B43223D64DE000CE2A2 /* QrScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 395B9B42223D64DE000CE2A2 /* QrScreen.png */; };
 		395B9B45223D6603000CE2A2 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */; };
 		395B9B47223D69B5000CE2A2 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */; };
@@ -105,6 +106,7 @@
 		3926A5BA224FE908006BE4B6 /* TrainerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainerCell.xib; sourceTree = "<group>"; };
 		3926A5BD22500A71006BE4B6 /* trainer_request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trainer_request.png; sourceTree = "<group>"; };
 		3926A5BF22500A99006BE4B6 /* clipboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard.png; sourceTree = "<group>"; };
+		392B4ACD225E6FE900B755B6 /* main_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_btn.png; sourceTree = "<group>"; };
 		395B9B42223D64DE000CE2A2 /* QrScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QrScreen.png; sourceTree = "<group>"; };
 		395B9B44223D6603000CE2A2 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		395B9B46223D69B5000CE2A2 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 				396E32B2224414C7001420FC /* dumbbell2.png */,
 				39A22C3422568CE2007368CF /* green_bg.png */,
 				76C237A322558539008A1CCC /* gym_edif.png */,
+				392B4ACD225E6FE900B755B6 /* main_btn.png */,
 				89750BAC224DEC6A009678EA /* gym_pattern3.png */,
 				76C237A52255874E008A1CCC /* gym_schedule.png */,
 				395B9B4E223D8924000CE2A2 /* GymTec.png */,
@@ -420,6 +423,7 @@
 				395CEFC32241C8B300348BB6 /* CoachPic.png in Resources */,
 				39AF0E4D2255A7DE00582D09 /* tennis_bg.jpg in Resources */,
 				396E32B122441481001420FC /* coach.png in Resources */,
+				392B4ACE225E6FE900B755B6 /* main_btn.png in Resources */,
 				3926A5B1224FDD8B006BE4B6 /* barbells_bg.jpg in Resources */,
 				39A22C3722568F4A007368CF /* grey_bg.jpeg in Resources */,
 				39A22C3522568CE2007368CF /* green_bg.png in Resources */,
@@ -632,7 +636,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GymTec/GymTec.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L264YC49L2;
+				DEVELOPMENT_TEAM = C7ND5TF2LM;
 				INFOPLIST_FILE = GymTec/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -640,6 +644,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652823GymTec03;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -652,7 +657,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GymTec/GymTec.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L264YC49L2;
+				DEVELOPMENT_TEAM = C7ND5TF2LM;
 				INFOPLIST_FILE = GymTec/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -660,6 +665,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652823GymTec03;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
