@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="62" translatesAutoresizingMaskIntoConstraints="NO" id="4lc-vq-eVQ">
+                                <rect key="frame" x="25" y="243.00000000000003" width="325" height="325.66666666666674"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GymTec" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhS-RP-rPE">
+                                        <rect key="frame" x="0.0" y="0.0" width="325" height="117.66666666666667"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="100"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Ready to lift?&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ya9-XY-td2">
+                                        <rect key="frame" x="0.0" y="179.66666666666669" width="325" height="42"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="36"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="©2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyZ-X2-ezg">
+                                        <rect key="frame" x="0.0" y="283.66666666666663" width="325" height="42"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="36"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dumbbell-512.png" translatesAutoresizingMaskIntoConstraints="NO" id="SqQ-BU-OfT">
+                                <rect key="frame" x="47" y="44" width="281" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Ctg-Oz-pfh"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="SqQ-BU-OfT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1Hd-SQ-YWU"/>
+                            <constraint firstItem="SqQ-BU-OfT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2IC-Pi-fRF"/>
+                            <constraint firstItem="SqQ-BU-OfT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="98e-bJ-sRG"/>
+                            <constraint firstItem="SqQ-BU-OfT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="F2M-t1-7mw"/>
+                            <constraint firstItem="SqQ-BU-OfT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Lf5-Hc-o1x"/>
+                            <constraint firstItem="SqQ-BU-OfT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Uni-L4-f6V"/>
+                            <constraint firstItem="4lc-vq-eVQ" firstAttribute="top" secondItem="SqQ-BU-OfT" secondAttribute="bottom" constant="49" id="cwt-W2-aBo"/>
+                            <constraint firstItem="4lc-vq-eVQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mxB-4L-8Ok"/>
+                            <constraint firstItem="4lc-vq-eVQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vg1-De-w71"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dumbbell-512.png" width="384" height="384"/>
+    </resources>
+</document>
