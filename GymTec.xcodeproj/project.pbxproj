@@ -643,6 +643,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652823GymTec03;
 				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -663,6 +664,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.a01652823GymTec03;
 				PRODUCT_BUNDLE_IDENTIFIER = mx.a01336637.GymTec02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

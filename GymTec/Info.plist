@@ -44,11 +44,6 @@
 		<true/>
 	</dict>
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-	<key>NSAppleMusicUsageDescription</key>
-	<string>GymTec whats to use your media library</string>
->>>>>>> test
 =======
 	<key>NSAppleMusicUsageDescription</key>
 	<string>GymTec whats to use your media library</string>
@@ -58,13 +53,10 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>GymTec wants to use your location</string>
 <<<<<<< HEAD
-<<<<<<< HEAD
 	<key>kTCCServiceMediaLibrary</key>
 	<string>GymTec wants to connect with Apple Music</string>
 	<key>NSAppleMusicUsageDescription</key>
 	<string>GymTec whats to use your media library</string>
-=======
->>>>>>> test
 =======
 >>>>>>> test
 	<key>UIBackgroundModes</key>
