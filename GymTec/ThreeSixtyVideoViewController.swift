@@ -15,13 +15,20 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
 
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     @IBOutlet var sceneView: ARSCNView!
 =======
+=======
+>>>>>>> test
     @IBOutlet weak var activity: UIActivityIndicatorView!
     @IBOutlet var sceneView: ARSCNView!
     
     let player = AVPlayer(url: URL(string: "http://all360media.com/wp-content/uploads/pano/laphil/media/video-ios.mp4")!)
+<<<<<<< HEAD
     
+>>>>>>> test
+=======
+    var videoAlreadyExists = false
 >>>>>>> test
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +37,11 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
         sceneView.delegate = self
         
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        activity.isHidden = true
+        
+>>>>>>> test
 =======
         activity.isHidden = true
         
@@ -49,11 +61,16 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
     {
         let tapGesto = UITapGestureRecognizer(target: self, action: #selector(tapEnPantalla))
         self.sceneView.addGestureRecognizer(tapGesto)
+        
     }
     
     @objc func tapEnPantalla(manejador:UIGestureRecognizer)
     {
+        if videoAlreadyExists{
+            return
+        }
         
+<<<<<<< HEAD
 <<<<<<< HEAD
         let moviePath = "http://all360media.com/wp-content/uploads/pano/laphil/media/video-ios.mp4"
         let url = URL(string: moviePath)
@@ -68,6 +85,8 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
         videoNodo.play() //ejecutar play al momento de presentarse
         
 =======
+=======
+>>>>>>> test
         player.volume = 0.5
         
         // crear un nodo capaz de reporducir un video
@@ -80,6 +99,9 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
         
         player.addObserver(self, forKeyPath: "timeControlStatus", options: [.old, .new], context: nil)
         
+<<<<<<< HEAD
+>>>>>>> test
+=======
 >>>>>>> test
         //crear una escena sprite kit, los parametros estan en pixeles
         let spriteKitEscene =  SKScene(size: CGSize(width: 2480, height: 3508 ))
@@ -122,9 +144,13 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
         //---> pantallaPlanaNodo.eulerAngles = SCNVector3(Double.pi, 0, 0)
         self.sceneView.scene.rootNode.addChildNode(tierra)
         
+        videoAlreadyExists = true
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> test
     
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
@@ -141,6 +167,9 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
             }
         }
     
+<<<<<<< HEAD
+>>>>>>> test
+=======
 >>>>>>> test
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -154,6 +183,10 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewWillDisappear(_ animated: Bool) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        player.removeObserver(self, forKeyPath: "timeControlStatus")
+>>>>>>> test
 =======
         player.removeObserver(self, forKeyPath: "timeControlStatus")
 >>>>>>> test
