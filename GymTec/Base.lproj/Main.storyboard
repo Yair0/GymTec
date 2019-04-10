@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HSN-jb-ehe">
+    <device id="retina6_1" orientation="portrait">
+=======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HSN-jb-ehe">
     <device id="retina4_7" orientation="portrait">
+>>>>>>> test
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,6 +20,19 @@
             <objects>
                 <viewController title="About Us" id="g4X-EA-U0o" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17b-Dd-gxp">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="RWr-mr-Pcx">
+                                <rect key="frame" x="20" y="123" width="374" height="441"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Tb-Hx-TXE">
+                                        <rect key="frame" x="125.5" y="0.0" width="123.5" height="45.5"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="GymTec">
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -26,6 +44,7 @@
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <attributedString key="attributedText">
                                             <fragment content="iGym">
+>>>>>>> test
                                                 <attributes>
                                                     <color key="NSBackgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -38,65 +57,105 @@
                                         <size key="shadowOffset" width="0.0" height="1"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Myv-nW-LBu">
+<<<<<<< HEAD
+                                        <rect key="frame" x="138" y="62.5" width="98.5" height="25"/>
+=======
                                         <rect key="frame" x="118.5" y="61.5" width="98.5" height="25"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <nil key="textColor"/>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jorge German Reyes Garcia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6p-Yp-WFE">
+<<<<<<< HEAD
+                                        <rect key="frame" x="74.5" y="104.5" width="225" height="21.5"/>
+=======
                                         <rect key="frame" x="55" y="103.5" width="225" height="21.5"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kevin Alejandro Ruvalcaba Perez" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSK-CY-Mid">
+<<<<<<< HEAD
+                                        <rect key="frame" x="55.5" y="143" width="263.5" height="21.5"/>
+=======
                                         <rect key="frame" x="36" y="142" width="263.5" height="21.5"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yair Yolotl Pimentel Vanegas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkW-DH-yYf">
+<<<<<<< HEAD
+                                        <rect key="frame" x="72.5" y="181.5" width="229.5" height="21.5"/>
+=======
                                         <rect key="frame" x="53" y="180.5" width="229.5" height="21.5"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J04-Ks-igs">
+<<<<<<< HEAD
+                                        <rect key="frame" x="152.5" y="220" width="69.5" height="25"/>
+=======
                                         <rect key="frame" x="133" y="219" width="69.5" height="25"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <nil key="textColor"/>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jose Martin Molina Espinosa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9P-39-CQp">
+<<<<<<< HEAD
+                                        <rect key="frame" x="72" y="262" width="230.5" height="21.5"/>
+=======
                                         <rect key="frame" x="52.5" y="261" width="230.5" height="21.5"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d94-5l-HEq">
+<<<<<<< HEAD
+                                        <rect key="frame" x="154" y="300.5" width="66.5" height="25"/>
+=======
                                         <rect key="frame" x="134.5" y="299.5" width="66.5" height="25"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <nil key="textColor"/>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proyectos de desarrollo para dispositivos moviles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArZ-kN-e9u">
+<<<<<<< HEAD
+                                        <rect key="frame" x="18" y="342.5" width="338" height="18"/>
+=======
                                         <rect key="frame" x="0.0" y="341.5" width="335" height="18"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Environment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMm-af-ykX">
+<<<<<<< HEAD
+                                        <rect key="frame" x="132.5" y="377.5" width="109" height="25"/>
+=======
                                         <rect key="frame" x="113" y="376.5" width="109" height="25"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <nil key="textColor"/>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xcode 10.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WU5-ob-5Ha">
+<<<<<<< HEAD
+                                        <rect key="frame" x="144" y="419.5" width="86.5" height="21.5"/>
+=======
                                         <rect key="frame" x="124.5" y="418.5" width="86.5" height="21.5"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -123,11 +182,19 @@
             <objects>
                 <viewController title="Profile" id="faZ-aD-FaS" customClass="ProfileViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hNd-nA-m3i">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Mdv-gb-JJr">
+                                <rect key="frame" x="0.0" y="177.5" width="414" height="718.5"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Mdv-gb-JJr">
                                 <rect key="frame" x="0.0" y="153.5" width="375" height="513.5"/>
+>>>>>>> test
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="w5C-qr-xO5">
                                     <size key="itemSize" width="150" height="150"/>
@@ -147,7 +214,11 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iGYM" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgK-0p-OTO">
+<<<<<<< HEAD
+                                <rect key="frame" x="110" y="103" width="194" height="44.5"/>
+=======
                                 <rect key="frame" x="110" y="79" width="155" height="44.5"/>
+>>>>>>> test
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="38"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -190,6 +261,16 @@
             <objects>
                 <viewController storyboardIdentifier="profile_qr" title="Profile QR" id="JTW-0f-lsP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iYk-ew-g67">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="85" translatesAutoresizingMaskIntoConstraints="NO" id="nCS-CM-xOf">
+                                <rect key="frame" x="59" y="77" width="296" height="274.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYg-0U-BTC">
+                                        <rect key="frame" x="108" y="0.0" width="80.5" height="45.5"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -198,6 +279,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYg-0U-BTC">
                                         <rect key="frame" x="88.5" y="0.0" width="80.5" height="45.5"/>
+>>>>>>> test
                                         <attributedString key="attributedText">
                                             <fragment content="iGYM">
                                                 <attributes>
@@ -212,7 +294,11 @@
                                         <size key="shadowOffset" width="0.0" height="1"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QR LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="fgq-9z-EkQ">
+<<<<<<< HEAD
+                                        <rect key="frame" x="74" y="130.5" width="148" height="144"/>
+=======
                                         <rect key="frame" x="0.0" y="130.5" width="257" height="288"/>
+>>>>>>> test
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -236,19 +322,31 @@
             <objects>
                 <tableViewController storyboardIdentifier="achievements" title="Achievements" id="Nge-Zz-95k" customClass="AchievementsListViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wxp-Vz-0m0">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+>>>>>>> test
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celda3" id="u4E-Ks-0By">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u4E-Ks-0By" id="Xp5-LD-jim">
+<<<<<<< HEAD
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trophy.png" translatesAutoresizingMaskIntoConstraints="NO" id="eIP-Wq-BT0">
+                                            <rect key="frame" x="345" y="0.0" width="44" height="44"/>
+=======
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trophy.png" translatesAutoresizingMaskIntoConstraints="NO" id="eIP-Wq-BT0">
                                             <rect key="frame" x="306" y="0.0" width="44" height="44"/>
+>>>>>>> test
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="44" id="Cv1-XV-qAR"/>
                                                 <constraint firstAttribute="height" constant="44" id="O0G-q6-yH5"/>
@@ -281,20 +379,28 @@
             <objects>
                 <viewController title="Logro" id="O7O-yH-FY9" customClass="DetalleAchievementsViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="td6-Fe-KxJ">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trophy.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rjU-LP-5fc">
+                                <rect key="frame" x="65" y="44" width="284" height="276"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trophy.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rjU-LP-5fc">
                                 <rect key="frame" x="65" y="20" width="245" height="300"/>
+>>>>>>> test
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Achievement title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Sm-26-tGL">
-                                <rect key="frame" x="16" y="328" width="343" height="36"/>
+                                <rect key="frame" x="16" y="328" width="382" height="36"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <color key="textColor" red="0.0456347093" green="0.010450990869999999" blue="0.037038154900000002" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción larga del logro" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18a-tN-KOc">
-                                <rect key="frame" x="96" y="411" width="183" height="150"/>
+                                <rect key="frame" x="115.5" y="411" width="183" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Nmd-VI-IFi"/>
                                 </constraints>
@@ -303,7 +409,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha de adquisición del logro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQU-Lt-sOR">
-                                <rect key="frame" x="83" y="372" width="209" height="18"/>
+                                <rect key="frame" x="102.5" y="372" width="209" height="18"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -341,7 +447,11 @@
             <objects>
                 <viewController id="8uS-uW-0Z6" customClass="AppleMusicViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ccm-cD-bWw">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+>>>>>>> test
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NKE-WO-USq"/>
@@ -356,6 +466,16 @@
             <objects>
                 <viewController title="Sign In" id="Oyb-9O-mHi" customClass="SignInViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GBY-WA-B60">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="UIp-vd-hjl">
+                                <rect key="frame" x="80" y="190" width="254" height="394"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kqw-yC-vcL">
+                                        <rect key="frame" x="10" y="0.0" width="234" height="30"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -364,6 +484,7 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kqw-yC-vcL">
                                         <rect key="frame" x="10" y="0.0" width="195" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="no" textContentType="email"/>
@@ -372,42 +493,65 @@
                                         </connections>
                                     </textField>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bM6-TR-fpI">
+<<<<<<< HEAD
+                                        <rect key="frame" x="106" y="40" width="42" height="0.0"/>
+=======
                                         <rect key="frame" x="86.5" y="40" width="42" height="0.0"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sAo-jF-l7V">
+<<<<<<< HEAD
+                                        <rect key="frame" x="10" y="91" width="234" height="30"/>
+=======
                                         <rect key="frame" x="10" y="91" width="195" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="no" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTZ-oh-noE">
+<<<<<<< HEAD
+                                        <rect key="frame" x="103.5" y="182" width="47" height="30"/>
+                                        <state key="normal" title="Sign In"/>
+=======
                                         <rect key="frame" x="7.5" y="182" width="200" height="35"/>
                                         <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
                                         <state key="normal" title="Sign In" backgroundImage="main_btn.png">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="FBs-Mr-Vhv" kind="presentation" id="DaK-pa-hKN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsA-IW-z45">
+<<<<<<< HEAD
+                                        <rect key="frame" x="100" y="273" width="54" height="30"/>
+                                        <state key="normal" title="Sign Up"/>
+=======
                                         <rect key="frame" x="7.5" y="278" width="200" height="35"/>
                                         <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
                                         <state key="normal" title="Sign Up" backgroundImage="main_btn.png">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="u4v-Q4-7LM" kind="show" id="fYg-ds-pmF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txr-Bi-dnx">
+<<<<<<< HEAD
+                                        <rect key="frame" x="96" y="364" width="62" height="30"/>
+                                        <state key="normal" title="About us"/>
+=======
                                         <rect key="frame" x="76.5" y="374" width="62" height="30"/>
                                         <state key="normal" title="About us">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="g4X-EA-U0o" kind="show" id="1bq-yc-m40"/>
                                         </connections>
@@ -422,7 +566,11 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iGYM" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7m-66-1xl">
+<<<<<<< HEAD
+                                <rect key="frame" x="110" y="113" width="194" height="45"/>
+=======
                                 <rect key="frame" x="110" y="89" width="155" height="69"/>
+>>>>>>> test
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="38"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -430,7 +578,11 @@
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
                         </subviews>
+<<<<<<< HEAD
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+=======
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+>>>>>>> test
                         <constraints>
                             <constraint firstItem="UIp-vd-hjl" firstAttribute="top" secondItem="E7m-66-1xl" secondAttribute="bottom" constant="32" id="3V3-RQ-Ddm"/>
                             <constraint firstItem="E7m-66-1xl" firstAttribute="top" secondItem="UdM-sX-Htx" secondAttribute="top" constant="25" id="6XL-Bo-k4c"/>
@@ -458,6 +610,23 @@
             <objects>
                 <viewController storyboardIdentifier="edit_profile" title="Edit Profile" id="W9K-1n-wKt" customClass="UpdateProfileViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1BS-k9-Sh7">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="KAW-86-cso">
+                                <rect key="frame" x="159" y="70" width="96" height="380.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iGYM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQz-u4-tKN">
+                                        <rect key="frame" x="8" y="0.0" width="80.5" height="44.5"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="38"/>
+                                        <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gja-6o-vGW">
+                                        <rect key="frame" x="0.0" y="70.5" width="96" height="24"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -473,6 +642,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gja-6o-vGW">
                                         <rect key="frame" x="40" y="0.0" width="255" height="24"/>
+>>>>>>> test
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" none="YES"/>
                                         </accessibility>
@@ -480,36 +650,61 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+<<<<<<< HEAD
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rm2-Md-XdN">
+                                        <rect key="frame" x="5.5" y="120.5" width="85" height="30"/>
+=======
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="foh-rk-WXg">
                                         <rect key="frame" x="40" y="55" width="255" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+<<<<<<< HEAD
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oDG-vQ-d07">
+                                        <rect key="frame" x="7.5" y="176.5" width="81.5" height="30"/>
+=======
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rm2-Md-XdN">
                                         <rect key="frame" x="40" y="116" width="255" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+<<<<<<< HEAD
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="foh-rk-WXg">
+                                        <rect key="frame" x="19.5" y="232.5" width="57" height="30"/>
+=======
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oDG-vQ-d07">
                                         <rect key="frame" x="40" y="177" width="255" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sex" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aU4-2r-6ab">
+<<<<<<< HEAD
+                                        <rect key="frame" x="21" y="288.5" width="54.5" height="30"/>
+=======
                                         <rect key="frame" x="40" y="238" width="255" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIm-V4-szh">
+<<<<<<< HEAD
+                                        <rect key="frame" x="12" y="344.5" width="72" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <state key="normal" title="Update!"/>
+=======
                                         <rect key="frame" x="40" y="299" width="255" height="35"/>
                                         <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="20"/>
                                         <state key="normal" title="Update information" backgroundImage="main_btn.png">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -550,11 +745,19 @@
             <objects>
                 <viewController storyboardIdentifier="scan_qr" title="Scan QR" id="uCc-DS-zrm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ndb-Gi-8nv">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QrScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="gRO-Zm-2kg">
+                                <rect key="frame" x="94.5" y="142" width="225" height="399"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QrScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="gRO-Zm-2kg">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+>>>>>>> test
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -578,12 +781,20 @@
                 <navigationController toolbarHidden="NO" id="zJD-Zs-EuV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="profile" id="Ta4-bC-kfL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NmB-ZV-1P9">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+=======
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+>>>>>>> test
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.88981950010745048" green="0.86909146876230126" blue="0.018034788186645501" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dOM-5M-DYa">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="769" width="414" height="44"/>
+=======
                         <rect key="frame" x="0.0" y="574" width="375" height="44"/>
+>>>>>>> test
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
@@ -601,7 +812,11 @@
                     <tabBarItem key="tabBarItem" title="Gym" image="gym" id="KZl-OV-tYh"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XZG-2C-LAl">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+=======
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+>>>>>>> test
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.30417395625538485" green="0.65734805340694291" blue="0.20055443836983469" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
@@ -618,11 +833,19 @@
             <objects>
                 <viewController title="Gym" id="7dr-4r-biF" customClass="GymTabViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CDJ-f2-zAN">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="M9Q-Pv-tey">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="M9Q-Pv-tey">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+>>>>>>> test
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="20" id="C9V-9G-QZl">
                                     <size key="itemSize" width="250" height="250"/>
@@ -632,7 +855,11 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="aqt-zu-Mqz">
+<<<<<<< HEAD
+                                        <rect key="frame" x="82" y="75" width="250" height="250"/>
+=======
                                         <rect key="frame" x="62.5" y="75" width="250" height="250"/>
+>>>>>>> test
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
@@ -642,7 +869,11 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iGYM" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZc-F0-EWu">
+<<<<<<< HEAD
+                                <rect key="frame" x="110" y="103" width="194" height="44.5"/>
+=======
                                 <rect key="frame" x="110" y="79" width="155" height="44.5"/>
+>>>>>>> test
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="38"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -678,7 +909,11 @@
                     <tabBarItem key="tabBarItem" title="Trainer" image="trainer" id="3Fc-XO-Kek"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WQr-jh-h2h">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+=======
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+>>>>>>> test
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.1623363439325155" green="0.34810650450013214" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
@@ -695,18 +930,30 @@
             <objects>
                 <viewController title="Trainer" id="Um2-Zh-Kuj" customClass="TrainerTabViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ANj-2d-FSR">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iGYM" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKZ-d6-bfv">
+                                <rect key="frame" x="110" y="103" width="194" height="44.5"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iGYM" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKZ-d6-bfv">
                                 <rect key="frame" x="110" y="79" width="155" height="44.5"/>
+>>>>>>> test
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="38"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mNR-4n-Ib6">
+<<<<<<< HEAD
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+=======
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+>>>>>>> test
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NkH-sL-mEi">
                                     <size key="itemSize" width="250" height="250"/>
@@ -716,7 +963,11 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="nQL-5a-HLN">
+<<<<<<< HEAD
+                                        <rect key="frame" x="82" y="75" width="250" height="250"/>
+=======
                                         <rect key="frame" x="62.5" y="75" width="250" height="250"/>
+>>>>>>> test
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
@@ -772,11 +1023,19 @@
             <objects>
                 <viewController storyboardIdentifier="gym_map" title="Gimnasio CCM" id="CpM-Gw-hLu" customClass="GoogleMapGymCCMViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vct-P7-luN">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zwT-2S-iyi">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zwT-2S-iyi">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+>>>>>>> test
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -801,6 +1060,70 @@
             <objects>
                 <viewController storyboardIdentifier="report_equipment" title="Report Equipment" id="4iz-73-zMI" customClass="ReportEquipmentViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OqH-4X-gzN">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="aoI-C4-wv2">
+                                <rect key="frame" x="94.5" y="153" width="225" height="289.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlv-SZ-cjf">
+                                        <rect key="frame" x="0.0" y="0.0" width="225" height="45.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="iGYM">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="38" name="DINAlternate-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <size key="shadowOffset" width="0.0" height="1"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="SgG-dj-6az">
+                                        <rect key="frame" x="9.5" y="78.5" width="215.5" height="142"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report faulty equipment" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtc-5W-F3t">
+                                                <rect key="frame" x="0.0" y="0.0" width="215.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <color key="textColor" red="0.045634709298610687" green="0.010450990870594978" blue="0.037038154900074005" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of Equipment" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aTN-Zm-UBZ">
+                                                <rect key="frame" x="9" y="53" width="197.5" height="30"/>
+                                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fault" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TVS-PQ-tNU">
+                                                <rect key="frame" x="75.5" y="112" width="65" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="aTN-Zm-UBZ" firstAttribute="centerX" secondItem="SgG-dj-6az" secondAttribute="centerX" id="dYH-kj-a0M"/>
+                                            <constraint firstItem="Xtc-5W-F3t" firstAttribute="centerX" secondItem="SgG-dj-6az" secondAttribute="centerX" id="rXZ-VP-Aw7"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1G-QB-amJ">
+                                        <rect key="frame" x="0.0" y="253.5" width="225" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <state key="normal" title="Take photo &amp; sumit ticket"/>
+                                        <connections>
+                                            <segue destination="vHv-3u-TQt" kind="show" id="C8k-CY-Tu5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zlv-SZ-cjf" firstAttribute="centerX" secondItem="aoI-C4-wv2" secondAttribute="centerX" id="RUc-wS-mb2"/>
+                                </constraints>
+                            </stackView>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -848,6 +1171,7 @@
                                 <color key="textColor" red="0.045634709298610687" green="0.010450990870594978" blue="0.037038154900074005" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+>>>>>>> test
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -879,11 +1203,19 @@
             <objects>
                 <viewController storyboardIdentifier="equipment" title="Equipment" id="s8p-Wf-lAt" customClass="EquipmentSectionViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jak-t8-s87">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ezN-zw-a5Y">
+                                <rect key="frame" x="0.0" y="133.5" width="414" height="728.5"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ezN-zw-a5Y">
                                 <rect key="frame" x="0.0" y="109.5" width="375" height="557.5"/>
+>>>>>>> test
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7Zd-7V-CQs">
                                     <size key="itemSize" width="150" height="150"/>
@@ -903,7 +1235,11 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iGYM" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBa-7f-fJT">
+<<<<<<< HEAD
+                                <rect key="frame" x="110" y="59" width="194" height="44.5"/>
+=======
                                 <rect key="frame" x="110" y="35" width="155" height="44.5"/>
+>>>>>>> test
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="38"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -935,11 +1271,19 @@
             <objects>
                 <viewController id="vHv-3u-TQt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E7T-Pc-4mn">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GymTec.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ds5-SE-hyL">
+                                <rect key="frame" x="94.5" y="44" width="225" height="399"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GymTec.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ds5-SE-hyL">
                                 <rect key="frame" x="0.0" y="-131" width="375" height="798"/>
+>>>>>>> test
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -960,11 +1304,19 @@
             <objects>
                 <viewController storyboardIdentifier="scan_exercise" title="Scan Exercise" id="JUb-B2-M6F" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rs6-e3-AwP">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QrScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Grz-nQ-BdD">
+                                <rect key="frame" x="20" y="69" width="374" height="697"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QrScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Grz-nQ-BdD">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+>>>>>>> test
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -986,11 +1338,19 @@
             <objects>
                 <viewController storyboardIdentifier="identify_equipment" title="Identify Equipment" id="UQD-LU-VdC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g1A-gi-zox">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GymTec.png" translatesAutoresizingMaskIntoConstraints="NO" id="b6z-hz-9Cf">
+                                <rect key="frame" x="7" y="65" width="400" height="587"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GymTec.png" translatesAutoresizingMaskIntoConstraints="NO" id="b6z-hz-9Cf">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+>>>>>>> test
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1012,11 +1372,19 @@
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="u5a-8o-hRi" customClass="Gimnasio360ViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eSb-3w-iTK">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIS-uY-Q7O">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIS-uY-Q7O">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+>>>>>>> test
                             </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1041,11 +1409,19 @@
             <objects>
                 <viewController id="TBh-7L-gTt" customClass="DetalleCoachViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ulB-gl-bj8">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="IAO-Gc-Y6O">
+                                <rect key="frame" x="57" y="89" width="300" height="446"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="IAO-Gc-Y6O">
                                 <rect key="frame" x="37.5" y="65" width="300" height="446"/>
+>>>>>>> test
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CoachPic.png" translatesAutoresizingMaskIntoConstraints="NO" id="o7A-gt-WMX" userLabel="CoachPic">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
@@ -1144,15 +1520,23 @@
             <objects>
                 <tableViewController storyboardIdentifier="trainer" title="Trainer List" id="8tN-pS-zGz" customClass="CoachesListaViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Li7-RT-Cmy">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+>>>>>>> test
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="wu1-1I-AHK" userLabel="cell">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wu1-1I-AHK" id="gjW-tx-Wq9">
+<<<<<<< HEAD
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+=======
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+>>>>>>> test
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coach.png" translatesAutoresizingMaskIntoConstraints="NO" id="MeF-fT-38n">
@@ -1182,15 +1566,23 @@
             <objects>
                 <tableViewController storyboardIdentifier="routines" title="Routines" id="UfV-7g-Uu1" customClass="RoutineListViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9Ro-hd-7MJ">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+>>>>>>> test
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celda2" id="rLa-Vz-Vb9">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rLa-Vz-Vb9" id="wpe-7N-iRB">
+<<<<<<< HEAD
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+=======
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+>>>>>>> test
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dumbbell2.png" translatesAutoresizingMaskIntoConstraints="NO" id="oJw-hW-edJ">
@@ -1219,6 +1611,16 @@
             <objects>
                 <viewController id="nHR-dM-OqR" customClass="DetalleRoutinesViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xo0-zT-Zra">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="twh-yG-CzR">
+                                <rect key="frame" x="20" y="71" width="374" height="625"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGB-gl-Nl1">
+                                        <rect key="frame" x="147" y="0.0" width="80.5" height="45.5"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1227,6 +1629,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGB-gl-Nl1">
                                         <rect key="frame" x="131.5" y="0.0" width="80.5" height="45.5"/>
+>>>>>>> test
                                         <attributedString key="attributedText">
                                             <fragment content="iGYM">
                                                 <attributes>
@@ -1241,13 +1644,21 @@
                                         <size key="shadowOffset" width="0.0" height="1"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Routine title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zii-cA-zHE">
+<<<<<<< HEAD
+                                        <rect key="frame" x="146" y="45.5" width="82" height="18"/>
+=======
                                         <rect key="frame" x="130.5" y="45.5" width="82" height="18"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                         <color key="textColor" red="0.0456347093" green="0.010450990869999999" blue="0.037038154900000002" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qbJ-N5-Oef">
+<<<<<<< HEAD
+                                        <rect key="frame" x="0.0" y="63.5" width="374" height="561.5"/>
+=======
                                         <rect key="frame" x="0.0" y="63.5" width="343" height="390.5"/>
+>>>>>>> test
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1282,6 +1693,16 @@
             <objects>
                 <viewController title="Sign Up" id="u4v-Q4-7LM" customClass="SignUpViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DqE-7R-iQX">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="65L-b3-a1E">
+                                <rect key="frame" x="80" y="190.5" width="254" height="470"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fcx-Sy-2kG">
+                                        <rect key="frame" x="10" y="0.0" width="234" height="30"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1290,12 +1711,17 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fcx-Sy-2kG">
                                         <rect key="frame" x="10" y="0.0" width="195" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="no" textContentType="name"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uv3-WY-1u1">
+<<<<<<< HEAD
+                                        <rect key="frame" x="10" y="55" width="234" height="30"/>
+=======
                                         <rect key="frame" x="10" y="55" width="195" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
@@ -1304,31 +1730,51 @@
                                         </connections>
                                     </textField>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daP-MP-1uw">
+<<<<<<< HEAD
+                                        <rect key="frame" x="106" y="90" width="42" height="0.0"/>
+=======
                                         <rect key="frame" x="86.5" y="90" width="42" height="0.0"/>
+>>>>>>> test
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uq3-bj-GH0">
+<<<<<<< HEAD
+                                        <rect key="frame" x="10" y="110" width="234" height="30"/>
+=======
                                         <rect key="frame" x="10" y="110" width="195" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartQuotesType="no" textContentType="password"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight in KG" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5SX-fx-1kH">
+<<<<<<< HEAD
+                                        <rect key="frame" x="10" y="165" width="234" height="30"/>
+=======
                                         <rect key="frame" x="10" y="165" width="195" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height in meters" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yvw-G8-jcd">
+<<<<<<< HEAD
+                                        <rect key="frame" x="10" y="220" width="234" height="30"/>
+=======
                                         <rect key="frame" x="10" y="220" width="195" height="30"/>
+>>>>>>> test
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JAJ-VL-lV7">
+<<<<<<< HEAD
+                                        <rect key="frame" x="10" y="275" width="234" height="30"/>
+=======
                                         <rect key="frame" x="10" y="275" width="195" height="30"/>
+>>>>>>> test
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -1338,7 +1784,11 @@
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sex" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uME-96-Dzc">
+<<<<<<< HEAD
+                                        <rect key="frame" x="10" y="330" width="234" height="30"/>
+=======
                                         <rect key="frame" x="10" y="330" width="195" height="30"/>
+>>>>>>> test
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -1348,20 +1798,30 @@
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6w9-na-MDa">
+<<<<<<< HEAD
+                                        <rect key="frame" x="103.5" y="385" width="47" height="30"/>
+                                        <state key="normal" title="Sign In"/>
+=======
                                         <rect key="frame" x="7.5" y="385" width="200" height="35"/>
                                         <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
                                         <state key="normal" title="Sign In" backgroundImage="main_btn.png">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="FBs-Mr-Vhv" kind="presentation" id="KXv-fH-Le4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qjo-9x-cD4">
+<<<<<<< HEAD
+                                        <rect key="frame" x="28" y="440" width="198" height="30"/>
+                                        <state key="normal" title="Have an account? Login here"/>
+=======
                                         <rect key="frame" x="8.5" y="445" width="198" height="30"/>
                                         <state key="normal" title="Have an account? Login here">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="HSN-jb-ehe" kind="show" id="mx2-Gq-Ziw"/>
                                         </connections>
@@ -1386,7 +1846,11 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iGYM" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0L-Ip-Pqm">
+<<<<<<< HEAD
+                                <rect key="frame" x="110" y="113" width="194" height="45.5"/>
+=======
                                 <rect key="frame" x="110" y="89" width="155" height="45.5"/>
+>>>>>>> test
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="38"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1394,7 +1858,11 @@
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
                         </subviews>
+<<<<<<< HEAD
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+=======
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+>>>>>>> test
                         <constraints>
                             <constraint firstItem="XOY-Gm-ZoF" firstAttribute="trailing" secondItem="Q0L-Ip-Pqm" secondAttribute="trailing" constant="110" id="2wA-ew-zXm"/>
                             <constraint firstItem="XOY-Gm-ZoF" firstAttribute="trailing" secondItem="65L-b3-a1E" secondAttribute="trailing" constant="80" id="8EH-zQ-2NB"/>
@@ -1426,7 +1894,11 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HSN-jb-ehe" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GIR-Lo-ZiG">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+=======
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+>>>>>>> test
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
@@ -1447,6 +1919,17 @@
             <objects>
                 <viewController storyboardIdentifier="360_view" title="360 View" id="dmZ-bK-rRp" customClass="_60SectionViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YtM-4p-z5q">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="2FF-w1-zoM">
+                                <rect key="frame" x="110" y="94" width="194" height="274"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6WM-qi-59J">
+                                        <rect key="frame" x="2" y="0.0" width="190" height="30"/>
+                                        <state key="normal" title="360 Video"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1459,46 +1942,67 @@
                                         <state key="normal" title="360 Video" backgroundImage="main_btn.png">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="Svy-tM-K6r" kind="show" id="QAS-KX-jyp"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOT-po-NDt">
+<<<<<<< HEAD
+                                        <rect key="frame" x="2" y="61" width="190" height="30"/>
+                                        <state key="normal" title="360 Gym"/>
+=======
                                         <rect key="frame" x="2" y="66" width="151" height="35"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                         <state key="normal" title="360 Gym" backgroundImage="main_btn.png">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="u5a-8o-hRi" kind="show" id="GTJ-uT-hkk"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqp-Ts-PNd">
+<<<<<<< HEAD
+                                        <rect key="frame" x="2" y="122" width="190" height="30"/>
+                                        <state key="normal" title="3D Objects"/>
+=======
                                         <rect key="frame" x="2" y="132" width="151" height="35"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                         <state key="normal" title="3D Objects" backgroundImage="main_btn.png">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="nIo-oy-u7r" kind="show" id="40d-uk-hfK"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4T-me-vMn">
+<<<<<<< HEAD
+                                        <rect key="frame" x="2" y="183" width="190" height="30"/>
+                                        <state key="normal" title="AR Video"/>
+=======
                                         <rect key="frame" x="2" y="198" width="151" height="35"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                         <state key="normal" title="AR Video" backgroundImage="main_btn.png">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="7Wr-GI-TYe" kind="show" id="CTr-aY-6sZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wX1-sO-U4c">
+<<<<<<< HEAD
+                                        <rect key="frame" x="2" y="244" width="190" height="30"/>
+                                        <state key="normal" title="Media"/>
+=======
                                         <rect key="frame" x="2" y="264" width="151" height="35"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                         <state key="normal" title="Media" backgroundImage="main_btn.png">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+>>>>>>> test
                                         <connections>
                                             <segue destination="Nlt-ph-r3l" kind="show" id="Wmo-7y-p5s"/>
                                         </connections>
@@ -1520,7 +2024,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+<<<<<<< HEAD
+                            <constraint firstItem="2FF-w1-zoM" firstAttribute="top" secondItem="9Zo-XC-Bhc" secondAttribute="top" constant="50" id="3Ou-rD-QnN"/>
+=======
                             <constraint firstItem="2FF-w1-zoM" firstAttribute="top" secondItem="9Zo-XC-Bhc" secondAttribute="top" constant="100" id="3Ou-rD-QnN"/>
+>>>>>>> test
                             <constraint firstItem="2FF-w1-zoM" firstAttribute="leading" secondItem="9Zo-XC-Bhc" secondAttribute="leading" constant="110" id="UyX-Fp-sPH"/>
                             <constraint firstItem="9Zo-XC-Bhc" firstAttribute="trailing" secondItem="2FF-w1-zoM" secondAttribute="trailing" constant="110" id="hFi-7M-sia"/>
                         </constraints>
@@ -1536,6 +2044,14 @@
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="Svy-tM-K6r" customClass="ThreeSixtyVideoViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jm3-F7-0QL">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V0n-e1-vOO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </arscnView>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1547,6 +2063,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
+>>>>>>> test
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -1558,7 +2075,10 @@
                         <viewLayoutGuide key="safeArea" id="ZBy-wI-AEA"/>
                     </view>
                     <connections>
+<<<<<<< HEAD
+=======
                         <outlet property="activity" destination="Pvb-DQ-YIh" id="ZUA-Wf-yFW"/>
+>>>>>>> test
                         <outlet property="sceneView" destination="V0n-e1-vOO" id="bS6-o7-624"/>
                     </connections>
                 </viewController>
@@ -1571,11 +2091,19 @@
             <objects>
                 <viewController title="360 Object" hidesBottomBarWhenPushed="YES" id="nIo-oy-u7r" customClass="ThreeSixtyObjectViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wwn-S5-3Zt">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJw-vM-KTO">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJw-vM-KTO">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+>>>>>>> test
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="53v-1c-0Hy" appends="YES" id="7nn-bH-lIg"/>
@@ -1610,6 +2138,15 @@
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="Nlt-ph-r3l" customClass="MediaGimmnasioViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t1D-zD-sDI">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xl-XU-Kcc">
+                                <rect key="frame" x="165" y="141" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Video !!"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1619,17 +2156,21 @@
                                 <state key="normal" title="Play video!" backgroundImage="main_btn.png">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+>>>>>>> test
                                 <connections>
                                     <action selector="PlayVideo" destination="Nlt-ph-r3l" eventType="touchUpInside" id="HfV-e3-j0L"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+<<<<<<< HEAD
+=======
                         <constraints>
                             <constraint firstItem="cfA-q0-nH8" firstAttribute="trailing" secondItem="5Xl-XU-Kcc" secondAttribute="trailing" constant="30" id="KWT-CM-YQm"/>
                             <constraint firstItem="5Xl-XU-Kcc" firstAttribute="top" secondItem="cfA-q0-nH8" secondAttribute="top" constant="75" id="Oym-8d-ry7"/>
                             <constraint firstItem="5Xl-XU-Kcc" firstAttribute="leading" secondItem="cfA-q0-nH8" secondAttribute="leading" constant="30" id="yeB-Im-a3w"/>
                         </constraints>
+>>>>>>> test
                         <viewLayoutGuide key="safeArea" id="cfA-q0-nH8"/>
                     </view>
                 </viewController>
@@ -1642,11 +2183,19 @@
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="7Wr-GI-TYe" customClass="AugmentedRealityVideoViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yYE-pg-s6u">
+<<<<<<< HEAD
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N6S-kp-gGU">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+=======
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N6S-kp-gGU">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+>>>>>>> test
                             </arscnView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1669,6 +2218,14 @@
     </scenes>
     <resources>
         <image name="CoachPic.png" width="300" height="300"/>
+<<<<<<< HEAD
+        <image name="GymTec.png" width="225" height="399"/>
+        <image name="QR LOGO.png" width="148" height="144"/>
+        <image name="QrScreen.png" width="225" height="399"/>
+        <image name="coach.png" width="40" height="40"/>
+        <image name="dumbbell2.png" width="299.70730590820312" height="299.70730590820312"/>
+        <image name="gym" width="16" height="16"/>
+=======
         <image name="GymTec.png" width="450" height="798"/>
         <image name="QR LOGO.png" width="296" height="288"/>
         <image name="QrScreen.png" width="450" height="798"/>
@@ -1676,11 +2233,16 @@
         <image name="dumbbell2.png" width="512" height="512"/>
         <image name="gym" width="16" height="16"/>
         <image name="main_btn.png" width="200" height="35"/>
+>>>>>>> test
         <image name="profile" width="16" height="16"/>
         <image name="trainer" width="16" height="16"/>
         <image name="trophy.png" width="600" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
+        <segue reference="tNY-1H-osF"/>
+=======
+>>>>>>> test
         <segue reference="3In-Uk-TUE"/>
         <segue reference="KXv-fH-Le4"/>
     </inferredMetricsTieBreakers>

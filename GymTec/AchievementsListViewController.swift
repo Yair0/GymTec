@@ -113,6 +113,8 @@ class AchievementsListViewController: UITableViewController, UISearchResultsUpda
         // Pass the selected object to the new view controller.
         let siguiente = segue.destination as! DetalleAchievementsViewController
         let indice = self.tableView.indexPathForSelectedRow?.row
+        var siguiente = segue.destination as! DetalleAchievementsViewController
+        var indice = self.tableView.indexPathForSelectedRow?.row
         
         let objetoAchievements = achievementsFiltrados[indice!] as! [String:Any]
         let nombre:String = objetoAchievements["Nombre"] as! String
