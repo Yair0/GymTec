@@ -14,26 +14,19 @@ import AVFoundation
 class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
 
     
-<<<<<<< HEAD
     @IBOutlet weak var activity: UIActivityIndicatorView!
     @IBOutlet var sceneView: ARSCNView!
     
     let player = AVPlayer(url: URL(string: "http://all360media.com/wp-content/uploads/pano/laphil/media/video-ios.mp4")!)
     
-=======
-    @IBOutlet var sceneView: ARSCNView!
->>>>>>> GermanBranch
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Set the view's delegate
         sceneView.delegate = self
         
-<<<<<<< HEAD
         activity.isHidden = true
         
-=======
->>>>>>> GermanBranch
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
@@ -54,7 +47,6 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
     @objc func tapEnPantalla(manejador:UIGestureRecognizer)
     {
         
-<<<<<<< HEAD
         player.volume = 0.5
         
         // crear un nodo capaz de reporducir un video
@@ -67,20 +59,6 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
         
         player.addObserver(self, forKeyPath: "timeControlStatus", options: [.old, .new], context: nil)
         
-=======
-        let moviePath = "http://all360media.com/wp-content/uploads/pano/laphil/media/video-ios.mp4"
-        let url = URL(string: moviePath)
-        let player = AVPlayer(url: url!)
-        player.volume = 0.5
-        print(player.isMuted)
-        
-        // crear un nodo capaz de reporducir un video
-        let videoNodo = SKVideoNode(url: url!)
-        //let videoNodo = SKVideoNode(fileNamed: "CheeziPuffs.mov")
-        //let videoNodo = SKVideoNode(avPlayer: player)
-        videoNodo.play() //ejecutar play al momento de presentarse
-        
->>>>>>> GermanBranch
         //crear una escena sprite kit, los parametros estan en pixeles
         let spriteKitEscene =  SKScene(size: CGSize(width: 2480, height: 3508 ))
         spriteKitEscene.addChild(videoNodo)
@@ -123,7 +101,6 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
         self.sceneView.scene.rootNode.addChildNode(tierra)
         
     }
-<<<<<<< HEAD
     
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
@@ -140,8 +117,6 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
             }
         }
     
-=======
->>>>>>> GermanBranch
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -153,10 +128,7 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-<<<<<<< HEAD
         player.removeObserver(self, forKeyPath: "timeControlStatus")
-=======
->>>>>>> GermanBranch
         super.viewWillDisappear(animated)
         
         // Pause the view's session
