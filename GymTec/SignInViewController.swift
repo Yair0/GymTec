@@ -27,6 +27,15 @@ extension UITextField {
     }
 }
 
+extension UIViewController {
+    func setBackground(url:String, target:UIViewController) {
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: url)
+        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
+        target.view.insertSubview(backgroundImage, at: 0)
+    }
+}
+
 
 
 class SignInViewController: UIViewController, UITextFieldDelegate {
@@ -35,17 +44,33 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var validationLabel: UILabel!
     
+    /*
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Hide the navigation bar on the this view controller
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
     
-    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Show the navigation bar on other view controllers
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+ */
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Hacer la navigation bar invisible
+        
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+        
         //Poner un background con una imagen en la misma carpeta, adaptable a todos los modelos de iPhone
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "app-bg.jpg")
-        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
-        self.view.insertSubview(backgroundImage, at: 0)
+        setBackground(url: "gym_pattern3.png", target: self)
         
         //Esconder teclado al presionar cualquier lado de la pantalla
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyBoard))
@@ -72,13 +97,18 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    //Cuando se deje de editar el campo de email sale la validación
     @IBAction func validateEmail(_ sender: UITextField) {
         if(emailTextField.isEmail()){
-            validationLabel.text = "Correct email"
+            emailTextField.backgroundColor = UIColor(displayP3Red: 1, green: 1, blue: 1, alpha: 1)
+            validationLabel.isHidden = true
         }else{
-            validationLabel.text = "Wrong email"
+            validationLabel.text = "Wrong Email Format"
+            validationLabel.textColor = UIColor(displayP3Red: 0.99, green: 0.28, blue: 0.28, alpha: 1)
+            emailTextField.backgroundColor = UIColor(displayP3Red: 0.99, green: 0.28, blue: 0.28, alpha: 1)
+            validationLabel.isHidden = false
         }
-        validationLabel.isHidden = false
+        
     }
     
    

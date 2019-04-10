@@ -19,6 +19,7 @@ class DetalleCoachViewController: UIViewController {
     @IBOutlet weak var mail: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        setBackground(url: "grey_bg.jpeg", target: self)
         nombre.text = nombreRecibido
         spec.text = specRecibido
         num.text = numRecibido

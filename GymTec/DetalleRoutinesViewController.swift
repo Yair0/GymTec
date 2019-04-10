@@ -15,6 +15,7 @@ class DetalleRoutinesViewController: UIViewController {
     @IBOutlet weak var routineDesc: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        setBackground(url: "grey_bg.jpeg", target: self)
         routineTitle.text = nom
         routineDesc.text = descrip
         // Do any additional setup after loading the view.
