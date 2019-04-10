@@ -337,6 +337,21 @@
             </objects>
             <point key="canvasLocation" x="-2943.1999999999998" y="2131.4842578710645"/>
         </scene>
+        <!--Apple Music View Controller-->
+        <scene sceneID="ZN1-8L-sY8">
+            <objects>
+                <viewController id="8uS-uW-0Z6" customClass="AppleMusicViewController" customModule="GymTec" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ccm-cD-bWw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NKE-WO-USq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aBk-Oq-Cld" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5526" y="-350"/>
+        </scene>
         <!--Sign In-->
         <scene sceneID="FY5-it-ijy">
             <objects>
@@ -1604,6 +1619,7 @@
         <image name="trophy.png" width="600" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="tNY-1H-osF"/>
         <segue reference="3In-Uk-TUE"/>
         <segue reference="KXv-fH-Le4"/>
     </inferredMetricsTieBreakers>
