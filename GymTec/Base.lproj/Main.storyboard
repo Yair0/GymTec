@@ -804,7 +804,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlv-SZ-cjf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlv-SZ-cjf">
                                 <rect key="frame" x="45" y="80" width="285" height="45.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="iGYM">
@@ -819,15 +819,15 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of Equipment" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aTN-Zm-UBZ">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of Equipment" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aTN-Zm-UBZ">
                                 <rect key="frame" x="20" y="282" width="335" height="30"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1G-QB-amJ">
-                                <rect key="frame" x="20" y="418" width="335" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1G-QB-amJ">
+                                <rect key="frame" x="20" y="418" width="335" height="35"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <state key="normal" title="Take photo and submit ticket" backgroundImage="main_btn.png">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -836,13 +836,13 @@
                                     <segue destination="vHv-3u-TQt" kind="show" id="C8k-CY-Tu5"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fault description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TVS-PQ-tNU">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fault description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TVS-PQ-tNU">
                                 <rect key="frame" x="20" y="356" width="335" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Report faulty equipment" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtc-5W-F3t">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report faulty equipment" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtc-5W-F3t">
                                 <rect key="frame" x="20" y="216" width="335" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <color key="textColor" red="0.045634709298610687" green="0.010450990870594978" blue="0.037038154900074005" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
@@ -851,12 +851,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="zlv-SZ-cjf" firstAttribute="top" secondItem="461-lN-XgL" secondAttribute="top" constant="60" id="0Wn-IM-COn"/>
+                            <constraint firstItem="461-lN-XgL" firstAttribute="trailing" secondItem="zlv-SZ-cjf" secondAttribute="trailing" constant="45" id="1eG-tm-zrS"/>
                             <constraint firstItem="h1G-QB-amJ" firstAttribute="top" secondItem="TVS-PQ-tNU" secondAttribute="bottom" constant="32" id="4Rp-ap-jlE"/>
                             <constraint firstItem="461-lN-XgL" firstAttribute="trailing" secondItem="Xtc-5W-F3t" secondAttribute="trailing" constant="20" id="7JX-M4-7e5"/>
                             <constraint firstItem="461-lN-XgL" firstAttribute="trailing" secondItem="aTN-Zm-UBZ" secondAttribute="trailing" constant="20" id="9yt-zo-Xf3"/>
                             <constraint firstItem="461-lN-XgL" firstAttribute="trailing" secondItem="h1G-QB-amJ" secondAttribute="trailing" constant="20" id="Caq-Oy-5Dj"/>
                             <constraint firstItem="h1G-QB-amJ" firstAttribute="leading" secondItem="461-lN-XgL" secondAttribute="leading" constant="20" id="G1A-8L-tm7"/>
                             <constraint firstItem="TVS-PQ-tNU" firstAttribute="top" secondItem="aTN-Zm-UBZ" secondAttribute="bottom" constant="44" id="JRN-FG-EbT"/>
+                            <constraint firstItem="zlv-SZ-cjf" firstAttribute="leading" secondItem="461-lN-XgL" secondAttribute="leading" constant="45" id="S7Z-Zj-31e"/>
                             <constraint firstItem="TVS-PQ-tNU" firstAttribute="leading" secondItem="461-lN-XgL" secondAttribute="leading" constant="20" id="XqO-by-zYQ"/>
                             <constraint firstItem="aTN-Zm-UBZ" firstAttribute="top" secondItem="Xtc-5W-F3t" secondAttribute="bottom" constant="42" id="bT5-m1-lxT"/>
                             <constraint firstItem="461-lN-XgL" firstAttribute="trailing" secondItem="TVS-PQ-tNU" secondAttribute="trailing" constant="20" id="op0-qM-7XL"/>

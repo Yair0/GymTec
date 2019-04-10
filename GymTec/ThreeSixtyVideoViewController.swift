@@ -133,7 +133,10 @@ class ThreeSixtyVideoViewController: UIViewController, ARSCNViewDelegate {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        player.removeObserver(self, forKeyPath: "timeControlStatus")
+        if videoAlreadyExists{
+            player.removeObserver(self, forKeyPath: "timeControlStatus")
+            
+        }
         super.viewWillDisappear(animated)
         
         // Pause the view's session
